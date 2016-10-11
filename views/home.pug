@@ -8,7 +8,8 @@ block content
 
   .jumbotron
     .form-group
-      input.input-lg.form-control(type='text' name='seach' placeholder='Buscar materias, temas, ejercicios, videos..')
+      form(method="GET", action="/search")
+        input.input-lg.form-control(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
 
   .form-group
     .col-sm-offset-3.col-sm-7
@@ -16,7 +17,7 @@ block content
 
   .row
     .col-sm-6.text-center(style='float: none; margin: 0 auto;')
-      h2 Ayudanos a ser todo lo que imaginas respondiendo esta encuesta
+      h2 Ayudanos a ser todo lo que necesitas respondiendo esta encuesta
       button.btn-lg.btn-success(type="submit") Responder
 
   .form-group
