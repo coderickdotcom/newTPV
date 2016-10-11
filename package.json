@@ -1,5 +1,5 @@
 {
-  "name": "hackathon-starter",
+  "name": "Tu Profesor Virtual",
   "version": "4.2.1",
   "repository": {
     "type": "git",
@@ -54,7 +54,7 @@
     "request": "^2.74.0",
     "stripe": "^4.11.0",
     "tumblr.js": "^1.1.1",
-    "twilio": "^3.3.1-edge",
+    "twilio": "^2.11.0",
     "twit": "^2.2.4",
     "validator": "^6.0.0"
   },

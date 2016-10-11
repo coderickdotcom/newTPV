@@ -23,8 +23,8 @@ exports.getLogin = (req, res) => {
  * Sign in using email and password.
  */
 exports.postLogin = (req, res, next) => {
-  req.assert('email', 'Email is not valid').isEmail();
-  req.assert('password', 'Password cannot be blank').notEmpty();
+  req.assert('email', 'Email no valido').isEmail();
+  req.assert('password', 'Contraseña no puede estar en blanco').notEmpty();
   req.sanitize('email').normalizeEmail({ remove_dots: false });
 
   const errors = req.validationErrors();
@@ -42,7 +42,7 @@ exports.postLogin = (req, res, next) => {
     }
     req.logIn(user, (err) => {
       if (err) { return next(err); }
-      req.flash('success', { msg: 'Success! You are logged in.' });
+      req.flash('success', { msg: 'Exito! Has iniciado sesion.' });
       res.redirect(req.session.returnTo || '/');
     });
   })(req, res, next);
@@ -76,8 +76,8 @@ exports.getSignup = (req, res) => {
  */
 exports.postSignup = (req, res, next) => {
   req.assert('email', 'Email is not valid').isEmail();
-  req.assert('password', 'Password must be at least 4 characters long').len(4);
-  req.assert('confirmPassword', 'Passwords do not match').equals(req.body.password);
+  req.assert('password', 'Contraseña debe ser de al menos 8 caracteres').len(8);
+  req.assert('confirmPassword', 'Contraseñas no coinciden').equals(req.body.password);
   req.sanitize('email').normalizeEmail({ remove_dots: false });
 
   const errors = req.validationErrors();
@@ -95,7 +95,7 @@ exports.postSignup = (req, res, next) => {
   User.findOne({ email: req.body.email }, (err, existingUser) => {
     if (err) { return next(err); }
     if (existingUser) {
-      req.flash('errors', { msg: 'Account with that email address already exists.' });
+      req.flash('errors', { msg: 'Alguien ya uso ese email en nuestra pagina.' });
       return res.redirect('/signup');
     }
     user.save((err) => {
@@ -116,7 +116,7 @@ exports.postSignup = (req, res, next) => {
  */
 exports.getAccount = (req, res) => {
   res.render('account/profile', {
-    title: 'Account Management'
+    title: 'Manejo de Cuenta'
   });
 };
 
@@ -125,7 +125,7 @@ exports.getAccount = (req, res) => {
  * Update profile information.
  */
 exports.postUpdateProfile = (req, res, next) => {
-  req.assert('email', 'Please enter a valid email address.').isEmail();
+  req.assert('email', 'Por favor ingrese un email valido.').isEmail();
   req.sanitize('email').normalizeEmail({ remove_dots: false });
 
   const errors = req.validationErrors();
@@ -145,12 +145,12 @@ exports.postUpdateProfile = (req, res, next) => {
     user.save((err) => {
       if (err) {
         if (err.code === 11000) {
-          req.flash('errors', { msg: 'The email address you have entered is already associated with an account.' });
+          req.flash('errors', { msg: 'Este email ya se encuentra asociado a otra cuenta.' });
           return res.redirect('/account');
         }
         return next(err);
       }
-      req.flash('success', { msg: 'Profile information has been updated.' });
+      req.flash('success', { msg: 'Informacion de perfil ha sido actualizada.' });
       res.redirect('/account');
     });
   });
@@ -161,8 +161,8 @@ exports.postUpdateProfile = (req, res, next) => {
  * Update current password.
  */
 exports.postUpdatePassword = (req, res, next) => {
-  req.assert('password', 'Password must be at least 4 characters long').len(4);
-  req.assert('confirmPassword', 'Passwords do not match').equals(req.body.password);
+  req.assert('password', 'Contraseña debe ser de al menos 8 caracteres').len(8);
+  req.assert('confirmPassword', 'Contraseña no coinciden').equals(req.body.password);
 
   const errors = req.validationErrors();
 
@@ -176,7 +176,7 @@ exports.postUpdatePassword = (req, res, next) => {
     user.password = req.body.password;
     user.save((err) => {
       if (err) { return next(err); }
-      req.flash('success', { msg: 'Password has been changed.' });
+      req.flash('success', { msg: 'Contraseña ha sido cambiada.' });
       res.redirect('/account');
     });
   });
@@ -190,7 +190,7 @@ exports.postDeleteAccount = (req, res, next) => {
   User.remove({ _id: req.user.id }, (err) => {
     if (err) { return next(err); }
     req.logout();
-    req.flash('info', { msg: 'Your account has been deleted.' });
+    req.flash('info', { msg: 'Su cuenta ha sido borrada.' });
     res.redirect('/');
   });
 };
@@ -283,12 +283,12 @@ exports.postReset = (req, res, next) => {
       });
       const mailOptions = {
         to: user.email,
-        from: 'hackathon@starter.com',
-        subject: 'Your Hackathon Starter password has been changed',
-        text: `Hello,\n\nThis is a confirmation that the password for your account ${user.email} has just been changed.\n`
+        from: 'tuprofesorvirtual24h@gmail.com',
+        subject: 'TuProfesorVirtual: contraseña actualizada.',
+        text: `Hola,\n\n Hola esta es una confirmacion de que su cuenta ${user.email} ha sido cambiada.\n`
       };
       transporter.sendMail(mailOptions, (err) => {
-        req.flash('success', { msg: 'Success! Your password has been changed.' });
+        req.flash('success', { msg: 'Contraseña actualizada!.' });
         done(err);
       });
     }
@@ -358,7 +358,7 @@ exports.postForgot = (req, res, next) => {
       const mailOptions = {
         to: user.email,
         from: 'hackathon@starter.com',
-        subject: 'Reset your password on Hackathon Starter',
+        subject: 'TuProfesorVirtual: Cambio de Contraseña',
         text: `You are receiving this email because you (or someone else) have requested the reset of the password for your account.\n\n
           Please click on the following link, or paste this into your browser to complete the process:\n\n
           http://${req.headers.host}/reset/${token}\n\n

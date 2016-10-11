@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const bcrypt = require('bcrypt-nodejs');
 const crypto = require('crypto');
 const mongoose = require('mongoose');
@@ -9,13 +10,8 @@ const userSchema = new mongoose.Schema({
   passwordResetExpires: Date,
 
   facebook: String,
-  twitter: String,
   google: String,
-  github: String,
-  instagram: String,
-  linkedin: String,
-  steam: String,
-  tokens: Array,
+
 
   profile: {
     name: String,

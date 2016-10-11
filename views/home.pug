@@ -1,9 +1,28 @@
 extends layout
 
 block content
-  h1 Hackathon Starter
-  p.lead A boilerplate for Node.js web applications.
-  hr
+  .row
+    .col-sm-6(style='float: none; margin: 0 auto;')
+        img(class='img-responsive' src='logo.png')
+        p.lead.text-center Tu solución para aprender online.
+
+  .jumbotron
+    .form-group
+      input.input-lg.form-control(type='text' name='seach' placeholder='Buscar materias, temas, ejercicios, videos..')
+
+  .form-group
+    .col-sm-offset-3.col-sm-7
+      hr
+
+  .row
+    .col-sm-6.text-center(style='float: none; margin: 0 auto;')
+      h2 Ayudanos a ser todo lo que imaginas respondiendo esta encuesta
+      button.btn-lg.btn-success(type="submit") Responder
+
+  .form-group
+    .col-sm-offset-3.col-sm-7
+      hr
+
   .row
     .col-sm-6
       h2 Heading

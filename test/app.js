@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const request = require('supertest');
 const app = require('../app.js');
 
