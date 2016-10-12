@@ -1,47 +1,38 @@
 extends layout
 
 block content
-  .row
-    .col-sm-6(style='float: none; margin: 0 auto;')
-        img(class='img-responsive' src='logo.png')
-        p.lead.text-center Tu solución para aprender online.
 
   .jumbotron
-    .form-group
-      form(method="GET", action="/search")
-        input.input-lg.form-control(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
+    .container
+      .jumbotron_content
+        .row
+          .col-xs-12.text-center
+              img.img-responsive(src='logo.png')
+              p.lead.text-center Matemática, Física y Química, te la ponemos fácil!
+          .col-xs-12.col-sm-10.col-sm-offset-2.col-md-8.col-md-offset-2
+            form(method="GET", action="/search")
+              input.input-lg.form-control(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
 
-  .form-group
-    .col-sm-offset-3.col-sm-7
-      hr
+  .section(style="margin: 100px 0")
+    .container
+      h2.text-center Algunas de las cosas que podras aprender con nosotros
 
-  .row
-    .col-sm-6.text-center(style='float: none; margin: 0 auto;')
-      h2 Ayudanos a ser todo lo que necesitas respondiendo esta encuesta
-      button.btn-lg.btn-success(type="submit") Responder
+  .section(style="margin: 100px 0")
+    .container
+      .row
+        .col-md-4
+          h2 Matematica
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        .col-md-4
+          h2 Fisica
+          p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+        .col-sm-4
+          h2 Quimica
+          p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 
-  .form-group
-    .col-sm-offset-3.col-sm-7
-      hr
-
-  .row
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      p
-        a.btn.btn-default(href='#', role='button') View details »
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      p
-        a.btn.btn-default(href='#', role='button') View details »
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      p
-        a.btn.btn-default(href='#', role='button') View details »
-    .col-sm-6
-      h2 Heading
-      p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      p
-        a.btn.btn-default(href='#', role='button') View details »
+  .section(style="margin: 100px 0")
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3.text-center
+              h2 Ayudanos a ser todo lo que necesitas respondiendo esta encuesta
+              button.btn-lg.btn-success(type="submit") Responder

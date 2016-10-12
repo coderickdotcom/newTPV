@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  if cantidadDeResultados
+    h1 Encontramos #{cantidadDeResultados} resultados para: #{searchTerm}
+  else
+    div
+      h1 No hemos encontrado resultados para: #{searchTerm}
+
+  

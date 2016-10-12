@@ -21,6 +21,8 @@ const expressStatusMonitor = require('express-status-monitor');
 const sass = require('node-sass-middleware');
 const multer = require('multer');
 const upload = multer({ dest: path.join(__dirname, 'uploads') });
+const mongo = require('mongodb');
+
 
 /**
  * Load environment variables from .env file, where API keys and passwords are configured.
@@ -35,6 +37,7 @@ const userController = require('./controllers/user');
 const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
 const videoController = require('./controllers/video');
+const searchController = require('./controllers/search');
 
 /**
  * API keys and Passport configuration.
@@ -138,11 +141,13 @@ app.get('/account/unlink/:provider', passportConfig.isAuthenticated, userControl
  * Video app routes.
  */
 app.get('/videos', videoController.ultimosVideos);
+app.get('/verVideo', videoController.verVideo);
+app.get('/materias', videoController.materias);
 
 /**
  * search route.
  */
-app.get('/search/:keyName', searchController.search);
+app.get('/search', searchController.searching);
 
 /**
  * API examples routes.

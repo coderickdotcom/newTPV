@@ -14,7 +14,7 @@
         li(class=(title == 'Home') ? 'active' : undefined)
           a(href='/') Inicio
         li(class=(title == 'Nuevos Videos') ? 'active' : undefined)
-          a(href='/videos') Videos
+          a(href='/videos') Materias
         li(class=(title == 'Contact') ? 'active' : undefined)
           a(href='/contact') Sobre Nosotros / Contacto
       ul.nav.navbar-nav.navbar-right
@@ -26,8 +26,10 @@
         else
           li.dropdown(class=(title == 'Account Management') ? 'active' : undefined)
             a.dropdown-toggle(href='#', data-toggle='dropdown')
-              if user.profile.picture
-                img(src=user.profile.picture)
+              if (user.profile.access == 'maestro')
+                li
+                  a(href='/maestros') Area de Maestros.
+                  //- TODO: CREAR ESTRUCTURA PARA AREA DE MAESTROS
               else
                 img(src=user.gravatar(60))
               span= user.profile.name || user.email || user.id

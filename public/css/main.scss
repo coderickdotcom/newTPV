@@ -1,10 +1,10 @@
-@import "themes/default/variables";
+//@import "themes/default/variables";
 
-@import "lib/bootstrap/bootstrap";
-@import "lib/bootstrap-social";
+@import "flatty.css";
+//@import "lib/bootstrap-social";
 @import "lib/font-awesome/font-awesome";
 
-@import "themes/default/default";
+//@import "themes/default/default";
 
 // Scaffolding
 // -------------------------
@@ -16,16 +16,14 @@ html {
 
 body {
   padding-top: 60px;
-  margin-bottom: 75px;
-  background: linear-gradient(90deg, rgb(87, 198, 197), rgb(255, 255, 255));
-  background: -webkit-linear-gradient(90deg, rgb(87, 198, 197), rgb(255, 255, 255));
+}
+body a, body a:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  height: 45px;
   line-height: 45px;
 
   p, ul {
@@ -70,4 +68,86 @@ textarea {
 
 .fa {
   margin-right: 6px;
+}
+
+/* Navbar */
+.navbar-default {
+  background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #333;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: #00aa99;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 0 !important;
+}
+.jumbotron > .container {
+  position: relative;
+  height: 500px;
+}
+.jumbotron_content {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 100%;
+}
+/* Bloque */
+.bloque {
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 1px rgba(0,0,0,.3);
+}
+.bloque_top {
+  padding: 15px 25px;
+  background: #00ff6b; color: #fff;
+}
+.bloque_top_materia {
+  text-transform: uppercase; font-size: 12px; letter-spacing: 1px;
+}
+.bloque_content {
+  padding: 25px;
+}
+.bloque_content_title {
+  margin-top: 0;
+  font-size: 22px;
+}
+.bloque_content_desc {
+  color: #777;
+  line-height: 1.75;
+}
+.bloque_bottom {
+  padding: 15px 25px; border-top: 1px solid #ccc;
+}
+.bloque_number-of-videos {
+
+}
+.bloque_total-duration {
+  float: right;
+}
+/* Footer */
+.footer ul {
+  padding: 0; list-style: none;
+}
+/* Social media */
+.social-media > li {
+  display: inline-block;
+}
+.social-media a {
+  margin: 5px;
+  display: inline-block; padding: 0px 0px; border-radius: 100%;
+  width: 40px; height: 40px;
+  line-height: 40px; text-align: center;
+}
+.social-media .facebook {
+  background-color: #ccc; color: #fff;
+}
+.social-media .twitter {
+  background-color: #ccc; color: #fff;
+}
+.social-media .instagram {
+  background-color: #ccc; color: #fff;
+}
+.social-media .youtube {
+  background-color: #ccc; color: #fff;
 }

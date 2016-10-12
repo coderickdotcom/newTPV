@@ -18,7 +18,8 @@ const userSchema = new mongoose.Schema({
     gender: String,
     location: String,
     website: String,
-    picture: String
+    picture: String,
+    access: String
   }
 }, { timestamps: true });
 
