@@ -15,7 +15,7 @@ block content
 
             .col-sm-6.col-md-4
               .bloque
-                .bloque_top
+                .bloque_top(style="background-color: " + block.color)
                   .bloque_top_materia
                     a(href="#0") #{block.subject}
                 .bloque_content
@@ -28,10 +28,6 @@ block content
                     | #{block.videoNumber}
                   span.bloque_total-duration
                     | #{block.totalTime}
-
-  .container
-      p= data
-
 
 
   //- ul

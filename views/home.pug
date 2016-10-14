@@ -6,17 +6,17 @@ block content
     .container
       .jumbotron_content
         .row
-          .col-xs-12.text-center
-              img.img-responsive(src='logo.png')
-              p.lead.text-center Matemática, Física y Química, te la ponemos fácil!
-          .col-xs-12.col-sm-10.col-sm-offset-2.col-md-8.col-md-offset-2
-            form(method="GET", action="/search")
-              input.input-lg.form-control(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
+          .col-xs-6.text-center
+              img.img-responsive(src='logo.png' style="margin: 0 0 20px")
+          .col-xs-12.col-md-6
+            .form-container
+              form(method="GET", action="/search")
+                input.form-control(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
 
   .section(style="margin: 100px 0")
     .container
-      h2.text-center Algunas de las cosas que podras aprender con nosotros
-
+      h2.text-center Matemática, Física y Química, te la ponemos fácil!
+      p.lead.text-center Aprovecha nuestra semana introductoria, donde podrás ver contenido gratuito de todas nuestras materias.
   .section(style="margin: 100px 0")
     .container
       .row

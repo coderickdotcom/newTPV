@@ -16,6 +16,7 @@ html {
 
 body {
   padding-top: 60px;
+  font-size: 16px;
 }
 body a, body a:hover {
   color: inherit;
@@ -77,13 +78,28 @@ textarea {
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
   color: #333;
 }
+.navbar-default .navbar-brand {
+  text-transform: uppercase; font-size: 15px; line-height: 20px; font-weight: bold; letter-spacing: -.2px;
+}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: #00aa99;
 }
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-toggle .icon-bar {
+  color: #333 !important; background-color: #333;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
 
 /* Jumbotron */
 .jumbotron {
+  position: relative;
   padding: 0 !important;
+  background: url('../img/thepatternlibrary.png') repeat;
 }
 .jumbotron > .container {
   position: relative;
@@ -91,7 +107,12 @@ textarea {
 }
 .jumbotron_content {
   position: absolute; top: 50%; transform: translateY(-50%);
-  width: 100%;
+  width: calc(100% - 30px);
+}
+/* Registration form */
+.form-container {
+  padding: 30px;
+  background: white;
 }
 /* Bloque */
 .bloque {
@@ -134,20 +155,65 @@ textarea {
   display: inline-block;
 }
 .social-media a {
-  margin: 5px;
+  margin: 5px; position: relative;
   display: inline-block; padding: 0px 0px; border-radius: 100%;
   width: 40px; height: 40px;
   line-height: 40px; text-align: center;
 }
+.social-media a .fa {
+  position: absolute; top: 50%; left: 50%; transform: translate3d(-50%, -50%, 0);
+}
 .social-media .facebook {
-  background-color: #ccc; color: #fff;
+  background-color: #3b5998; color: #fff;
 }
 .social-media .twitter {
-  background-color: #ccc; color: #fff;
+  background-color: #55acee; color: #fff;
 }
 .social-media .instagram {
-  background-color: #ccc; color: #fff;
+  background-color: #cd486b; color: #fff;
 }
 .social-media .youtube {
-  background-color: #ccc; color: #fff;
+  background-color: #bb0000; color: #fff;
+}
+
+/* Bloque view */
+.tema-list {
+  padding: 0;
+  list-style: none;
+}
+.tema-list_tema h3 {
+  margin: 0;
+  padding: 15px 0;
+  cursor: pointer;
+  font-size: 18px; letter-spacing: .2px; font-weight: 400;
+}
+.tema-list_tema i.fa {
+  margin: 0 15px 0 0;
+  border-radius: 100%; border: 4px solid rgba(0,0,0,.3);
+  padding: 12px;
+  color: rgba(0,0,0,.5);
+}
+.video-list {
+  display: none; padding: 0 0 0 20px;
+  list-style: none;
+}
+@media (max-width: 500px) {
+  .video-list {
+    padding: 0 0 0 5px;
+  }
+}
+.video-list_video {
+  position: relative;
+  padding: 15px 0 15px 30px; border-bottom: 1px solid #f1f1f1;
+  line-height: 35px;
+}
+.video-list_video:before {
+  content: '\f01d';
+  position: absolute; top: 50%; left: 0; transform: translateY(-50%);
+  padding-right: 8px;
+  font-family: FontAwesome; font-size: 22px; line-height: 35px;
+  color: #666;
+}
+.video-list_video:last-child {
+  border-bottom: none;
 }

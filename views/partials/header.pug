@@ -7,7 +7,6 @@
         span.icon-bar
         span.icon-bar
       a.navbar-brand(href='/')
-        i.fa.fa-cube
         | Tu Profesor Virtual
     .collapse.navbar-collapse
       ul.nav.navbar-nav
@@ -16,7 +15,7 @@
         li(class=(title == 'Nuevos Videos') ? 'active' : undefined)
           a(href='/videos') Materias
         li(class=(title == 'Contact') ? 'active' : undefined)
-          a(href='/contact') Sobre Nosotros / Contacto
+          a(href='/contact') Contacto
       ul.nav.navbar-nav.navbar-right
         if !user
           li(class=(title == 'Login') ? 'active' : undefined)

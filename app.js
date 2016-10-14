@@ -142,7 +142,7 @@ app.get('/account/unlink/:provider', passportConfig.isAuthenticated, userControl
  */
 app.get('/videos', videoController.ultimosVideos);
 app.get('/verVideo', videoController.verVideo);
-app.get('/materias', videoController.materias);
+app.get('/bloque', videoController.bloque);
 
 /**
  * search route.

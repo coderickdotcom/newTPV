@@ -37,28 +37,28 @@ var blockData = [
   {'title': 'Las Sales',
     'description': 'Compuesto Quimico esencial para la vida en nuestro Planeta.',
     'subject':'Quimica',
-    'color':'#e15258',
+    'color':'#ff3100',
     'totalTime': '>1h',
     'videoNumber':'5'
   },
   {'title': 'Leyes de Newton',
     'description': 'Toda accion tiene una reaccion.',
     'subject':'Fisica',
-    'color':'#69d1f1',
+    'color':'#0cb6ff',
     'totalTime': '4h',
     'videoNumber':'20'
   },
   {'title': 'Pitagoras',
     'description': 'el padre de la trigonometria.',
     'subject':'Fisica',
-    'color':'#69d1f1',
+    'color':'#0cb6ff',
     'totalTime': '3h',
     'videoNumber':'10'
   },
   {'title': 'Estequiometria',
     'description': 'Como entender los compuestos quimicos.',
     'subject':'Quimica',
-    'color':'#e15258',
+    'color':'#ff3100',
     'totalTime': '3h',
     'videoNumber':'10'
   }
@@ -79,9 +79,9 @@ exports.ultimosVideos = (req, res) => {
    });
  };
 
- exports.materias = (req, res) => {
+ exports.bloque = (req, res) => {
 
-   res.render('videos/materias', {
-     title: 'Materias'
+   res.render('videos/bloque', {
+     title: 'bloque'
    });
  };
