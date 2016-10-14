@@ -1,18 +1,14 @@
 extends ../layout
 
 block content
-  .page-header
-    //- h1 #{video.titulo}
-    //- p  #{video.theme}
-    //- p.lead #{video.subject}
-    h1 titulo
-    p  tema
-    p.lead materia
+  .section(style="padding: 50px 0")
+    .container
+      h2 #{video.title}
+      p
+        a(href="#0")
+          i.fa.fa-long-arrow-left
+          | #{video.theme}
 
-  .container
-    iframe(width='100%', height='500', src="https://www.youtube.com/watch?v=ygd4DVijung", frameborder='0', allowfullscreen='allowfullscreen')
-    //- if videoServer = 'youtube'
-    //-   iframe(width='100%', height='500', src=""+url+"?autoplay=1", frameborder='0', allowfullscreen='allowfullscreen')
-    //- else
-    //-   div
-    //-   iframe(width='100%', height='500', src=url, frameborder='0', allowfullscreen='allowfullscreen')
+  .section
+    .container(style="padding-bottom: 80px")
+      iframe(width='100%', height='500', src="" + video.link, frameborder='0', allowfullscreen='allowfullscreen')

@@ -65,7 +65,11 @@ var blockData = [
 ];
 // END OF HORRIBLE TEST
 
-
+var video = {
+  title: 'Numeros enteros',
+  link: 'https://www.youtube.com/embed/McPq8FPgl6c?rel=0&showinfo=0',
+  theme: 'los numeros'
+};
 
 exports.ultimosVideos = (req, res) => {
    res.render('videos/nuevos', {
@@ -76,7 +80,8 @@ exports.ultimosVideos = (req, res) => {
 
  exports.verVideo = (req, res) => {
    res.render('videos/ver', {
-     title: req.query.name + ' - TuProfesorVirtual'
+     title: req.query.name + ' - TuProfesorVirtual',
+     video: video
    });
  };
 

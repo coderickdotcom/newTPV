@@ -127,10 +127,6 @@ textarea {
   position: relative;
   height: 500px;
 }
-.jumbotron_content {
-  position: absolute; top: 50%; transform: translateY(-50%);
-  width: calc(100% - 30px);
-}
 
 /* Bloque */
 .bloque {
@@ -195,8 +191,19 @@ textarea {
 
 /* Home page view */
 .jumbotron_content .img-responsive {
-  margin: 0 auto 20px;
-  width: calc(100% - 100px);
+  margin: 50px auto;
+  width: 100%; max-width: 500px;
+}
+@media (min-width: 992px) {
+  .jumbotron_content {
+    position: relative; top: 50%; transform: translateY(-50%);
+    width: calc(100% - 30px); height: 300px;
+  }
+  .jumbotron_content .img-responsive {
+    position: absolute; top: 150px; transform: translateY(-50%);
+    margin: 0 auto 20px;
+    width: calc(100% - 100px);
+  }
 }
 /* Registration form */
 .registration-form {
