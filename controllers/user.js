@@ -207,7 +207,7 @@ exports.getOauthUnlink = (req, res, next) => {
     user.tokens = user.tokens.filter(token => token.kind !== provider);
     user.save((err) => {
       if (err) { return next(err); }
-      req.flash('info', { msg: `${provider} account has been unlinked.` });
+      req.flash('info', { msg: `Cuenta de ${provider} ha sido eliminada.` });
       res.redirect('/account');
     });
   });
@@ -227,7 +227,7 @@ exports.getReset = (req, res, next) => {
     .exec((err, user) => {
       if (err) { return next(err); }
       if (!user) {
-        req.flash('errors', { msg: 'Password reset token is invalid or has expired.' });
+        req.flash('errors', { msg: 'Contraseña no valida o expirada.' });
         return res.redirect('/forgot');
       }
       res.render('account/reset', {
@@ -241,8 +241,8 @@ exports.getReset = (req, res, next) => {
  * Process the reset password request.
  */
 exports.postReset = (req, res, next) => {
-  req.assert('password', 'Password must be at least 4 characters long.').len(4);
-  req.assert('confirm', 'Passwords must match.').equals(req.body.password);
+  req.assert('password', 'Contraseña debe tener al menos 8 caracteres').len(8);
+  req.assert('confirm', 'Contraseñas deben coincidir.').equals(req.body.password);
 
   const errors = req.validationErrors();
 
@@ -259,7 +259,7 @@ exports.postReset = (req, res, next) => {
         .exec((err, user) => {
           if (err) { return next(err); }
           if (!user) {
-            req.flash('errors', { msg: 'Password reset token is invalid or has expired.' });
+            req.flash('errors', { msg: 'Token de seguridad invalido o expirado.' });
             return res.redirect('back');
           }
           user.password = req.body.password;
@@ -283,7 +283,7 @@ exports.postReset = (req, res, next) => {
       });
       const mailOptions = {
         to: user.email,
-        from: 'tuprofesorvirtual24h@gmail.com',
+        from: 'robot@TuProfesorVirtual.com',
         subject: 'TuProfesorVirtual: contraseña actualizada.',
         text: `Hola,\n\n Hola esta es una confirmacion de que su cuenta ${user.email} ha sido cambiada.\n`
       };
@@ -307,7 +307,7 @@ exports.getForgot = (req, res) => {
     return res.redirect('/');
   }
   res.render('account/forgot', {
-    title: 'Forgot Password'
+    title: 'Recuperar Contraseña'
   });
 };
 
@@ -316,7 +316,7 @@ exports.getForgot = (req, res) => {
  * Create a random token, then the send user an email with a reset link.
  */
 exports.postForgot = (req, res, next) => {
-  req.assert('email', 'Please enter a valid email address.').isEmail();
+  req.assert('email', 'Introduzca un email valido.').isEmail();
   req.sanitize('email').normalizeEmail({ remove_dots: false });
 
   const errors = req.validationErrors();
@@ -337,7 +337,7 @@ exports.postForgot = (req, res, next) => {
       User.findOne({ email: req.body.email }, (err, user) => {
         if (err) { return done(err); }
         if (!user) {
-          req.flash('errors', { msg: 'Account with that email address does not exist.' });
+          req.flash('errors', { msg: 'No existe una cuenta con ese email.' });
           return res.redirect('/forgot');
         }
         user.passwordResetToken = token;
@@ -357,15 +357,15 @@ exports.postForgot = (req, res, next) => {
       });
       const mailOptions = {
         to: user.email,
-        from: 'hackathon@starter.com',
+        from: 'robot@tuprofesorvirtual.com',
         subject: 'TuProfesorVirtual: Cambio de Contraseña',
-        text: `You are receiving this email because you (or someone else) have requested the reset of the password for your account.\n\n
-          Please click on the following link, or paste this into your browser to complete the process:\n\n
+        text: `Estas recibiendo este email porque has solicitado un cambio de contraseña.\n\n
+          Por favor haz click en el proximo link para terminar este proceso:\n\n
           http://${req.headers.host}/reset/${token}\n\n
-          If you did not request this, please ignore this email and your password will remain unchanged.\n`
+          Por favor ignora este email si no pediste un cambio de contraseña.\n`
       };
       transporter.sendMail(mailOptions, (err) => {
-        req.flash('info', { msg: `An e-mail has been sent to ${user.email} with further instructions.` });
+        req.flash('info', { msg: `Un email fue enviado a  ${user.email} con las siguientes instrucciones.` });
         done(err);
       });
     }

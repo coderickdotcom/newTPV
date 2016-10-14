@@ -35,7 +35,7 @@ exports.postContact = (req, res) => {
   }
 
   const mailOptions = {
-    to: 'tuprofesorvirtual24h@gmail.com',
+    to: 'rasabatino@hotmail.com',
     from: `${req.body.name} <${req.body.email}>`,
     subject: 'Formulario de Contacto | PAGINA WEB',
     text: req.body.message
@@ -46,7 +46,7 @@ exports.postContact = (req, res) => {
       req.flash('errors', { msg: err.message });
       return res.redirect('/contact');
     }
-    req.flash('success', { msg: 'Email has been sent successfully!' });
+    req.flash('success', { msg: 'Email enviado con exito!' });
     res.redirect('/contact');
   });
 };
