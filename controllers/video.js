@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 const _ = require('lodash');
 const async = require('async');
-const Videos = require('../models/Video');
+const Videos = require('../models/video');
 const Block = require('../models/Block');
 
 var lista = [];
