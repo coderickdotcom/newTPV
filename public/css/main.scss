@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 80px;
   font-size: 16px; font-family: 'Raleway', sans-serif;
 }
 body a, body a:hover {
@@ -80,6 +80,7 @@ textarea {
 
 /* Navbar */
 .navbar-default {
+  padding: 10px 0;
   background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.15);
 }
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
@@ -120,7 +121,7 @@ textarea {
 .jumbotron {
   position: relative;
   padding: 0 !important;
-  background: url('../img/profesorvirtual-pattern.png') repeat;
+  background: url('../img/dddd.png') repeat;
 }
 .jumbotron > .container {
   position: relative;
@@ -158,9 +159,7 @@ textarea {
 .bloque_bottom {
   padding: 15px 25px; border-top: 1px solid #ccc;
 }
-.bloque_number-of-videos {
-
-}
+.bloque_number-of-videos {}
 .bloque_total-duration {
   float: right;
 }
@@ -201,7 +200,7 @@ textarea {
 }
 /* Registration form */
 .registration-form {
-  background: white;
+  background: white; box-shadow: 0px .5px 2px rgba(0,0,0,.4);
 }
 .registration-form_header {
   padding: 20px 30px; border-bottom: 1px solid #eaeaea;
@@ -213,19 +212,22 @@ textarea {
 .registration-form_body {
   padding: 30px;
 }
-/* Table */
-.table-column {
-  border: 2px solid #eaeaea;
+.registration-form input[type="submit"] {
+  border: none;
+  background-color: #00aa99; color: #fff;
 }
+/* Table */
+.table-column {}
 .table-column_header {
   padding: 15px; border-bottom: 1px solid #eaeaea;
+  color: #fff;
 }
 .table-column_header h3 {
   margin: 0;
   font-size: 16px; text-transform: uppercase; text-align: center;
 }
 .table-column_body {
-  padding: 15px; border-bottom: 1px solid #eaeaea;
+  padding: 15px; border: 2px solid #eaeaea; border-top: 0; border-bottom: 1px solid #eaeaea;
 }
 .table-column_body ul {
   margin: 0;
@@ -237,7 +239,7 @@ textarea {
   text-align: center;
 }
 .table-column_footer {
-  padding: 15px; border-bottom: 1px solid #eaeaea;
+  padding: 15px; border: 2px solid #eaeaea; border-top: 0; border-bottom: 1px solid #eaeaea;
   text-align: center;
 }
 

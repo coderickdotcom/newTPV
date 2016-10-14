@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  console.log('hey');
+
   var wWidth = $(window).width();
 
   if(wWidth > 991) {
@@ -18,8 +20,9 @@ $(document).ready(function() {
     }
   });
 
-  $('.tema-list_tema').on('click', function() {
-    $(this).find('.video-list').slideToggle();
-  })
+  $('.tema-list_tema h3').on('click', function() {
+    $(this).parent().find('.video-list').slideToggle();
+    console.log('clicked');
+  });
 
 });
