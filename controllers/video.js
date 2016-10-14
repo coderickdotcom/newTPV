@@ -2,7 +2,7 @@
 const _ = require('lodash');
 const async = require('async');
 const Videos = require('../models/video');
-const Block = require('../models/Block');
+const Block = require('../models/block');
 
 var lista = [];
 var filtrado = [];
