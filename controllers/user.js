@@ -95,7 +95,7 @@ exports.postSignup = (req, res, next) => {
   User.findOne({ email: req.body.email }, (err, existingUser) => {
     if (err) { return next(err); }
     if (existingUser) {
-      req.flash('errors', { msg: 'Alguien ya uso ese email en nuestra pagina.' });
+      req.flash('errors', { msg: 'Este correo ya se encuentra registrado.' });
       return res.redirect('/signup');
     }
     user.save((err) => {
