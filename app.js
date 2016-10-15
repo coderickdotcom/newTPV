@@ -38,6 +38,7 @@ const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
 const videoController = require('./controllers/video');
 const searchController = require('./controllers/search');
+const privacyController = require('./controllers/privacy');
 
 /**
  * API keys and Passport configuration.
@@ -158,6 +159,11 @@ app.get('/api/facebook', passportConfig.isAuthenticated, passportConfig.isAuthor
 app.get('/api/paypal', apiController.getPayPal);
 app.get('/api/paypal/success', apiController.getPayPalSuccess);
 app.get('/api/paypal/cancel', apiController.getPayPalCancel);
+
+/**
+ * API examples routes.
+ */
+ app.get('/privacidad', privacyController.privacy);
 
 
 /**
