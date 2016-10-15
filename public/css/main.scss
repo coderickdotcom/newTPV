@@ -128,6 +128,10 @@ textarea {
   height: 500px;
 }
 
+.jumbotron .img-responsive {
+  margin: 50px auto;
+  width: 100%; max-width: 500px;
+}
 /* Bloque */
 .bloque {
   margin-bottom: 30px;
@@ -290,4 +294,8 @@ textarea {
 }
 .video-list_video:last-child {
   border-bottom: none;
+}
+
+.main-search {
+      border: 1px solid rgba(1, 136, 125, 0.29) !important;
 }

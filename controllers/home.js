@@ -45,8 +45,9 @@ exports.postSignup = (req, res, next) => {
         if (err) {
           return next(err);
         }
-        res.redirect('/videos');
+        res.redirect('/');
       });
     });
+    req.flash('success', { msg: 'Exito! Tu cuenta ha sido creada.' });
   });
 };

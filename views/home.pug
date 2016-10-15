@@ -4,37 +4,44 @@ block content
 
   .jumbotron
     .container
-      .jumbotron_content
-        .row
-          .col-xs-12.col-md-6
-              img.img-responsive(src='logo.png')
-          .col-xs-12.col-md-6
-            .registration-form
-              .registration-form_header
-                h3 Regístrate
-              .registration-form_body
-                form(id='signup-form', method="POST").form
-                  input(type='hidden', name='_csrf', value=_csrf)
-                  .form-group
+      if !user
+        .jumbotron_content
+          .row
+            .col-xs-12.col-md-6
+                img.img-responsive(src='logo.png')
+            .col-xs-12.col-md-6
+              .registration-form
+                .registration-form_header
+                  h3 Regístrate
+                .registration-form_body
+                  form(id='signup-form', method="POST").form
+                    input(type='hidden', name='_csrf', value=_csrf)
+                    .form-group
+                      .row
+                        .col-md-6
+                          input.form-control(type="text" name="username" placeholder="Nombre")
+                        .col-md-6
+                          input.form-control(type='password', name='password', id='password', placeholder='Contraseña', required)
+                    .form-group
+                      input.form-control(type='email', name='email', id='email', placeholder='Email', required)
+                    button.btn.btn-success(type='submit')
+                      i.fa.fa-user-plus
+                      | Registrarse
                     .row
-                      .col-md-6
-                        input.form-control(type="text" name="username" placeholder="Nombre")
-                      .col-md-6
-                        input.form-control(type="password" name="password" placeholder="Contrasena")
-                  .form-group
-                    input.form-control(type="email" name="email" placeholder="correo electronico")
-                  button.btn.btn-success(type='submit')
-                    i.fa.fa-user-plus
-                    | Registrarse
-                  .row
-                    .col-sm-offset-3.col-sm-3
-                      a.btn.btn-block.btn-facebook.btn-social(href='/auth/facebook')
-                        i.fa.fa-facebook
-                        | Registrar con Facebook
-                      a.btn.btn-block.btn-google.btn-social(href='/auth/google')
-                        i.fa.fa-google-plus
-                        | Registrar con Google
-                  //- input.form-control(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
+                      .col-sm-offset-3.col-sm-3
+                        a.btn.btn-block.btn-facebook.btn-social(href='/auth/facebook')
+                          i.fa.fa-facebook
+                          | Registrar con Facebook
+                        a.btn.btn-block.btn-google.btn-social(href='/auth/google')
+                          i.fa.fa-google-plus
+                          | Registrar con Google
+      else
+        .jumbotron
+          .row
+            .col-xs-12.col-md-6.col-sm-offset-3
+                img.img-responsive(src='logo.png')
+                .form-group
+                  input.form-control.main-search(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
 
   .section(style="margin: 100px 0")
     .container
