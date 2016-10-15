@@ -42,7 +42,8 @@ block content
             .col-xs-12.col-md-6.col-sm-offset-3
                 img.img-responsive(src='logo.png')
                 .form-group
-                  input.form-control.main-search(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
+                  form(action='/search', method="GET")
+                    input.form-control.main-search(type='text' name='search' placeholder='Buscar materias, temas, ejercicios, videos..')
 
   .section(style="margin: 100px 0")
     .container

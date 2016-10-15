@@ -285,7 +285,7 @@ exports.postReset = (req, res, next) => {
         to: user.email,
         from: 'robot@TuProfesorVirtual.com',
         subject: 'TuProfesorVirtual: contraseña actualizada.',
-        text: `Hola,\n\n Hola esta es una confirmacion de que su cuenta ${user.email} ha sido cambiada.\n`
+        text: `\n\n Esta es una confirmacion de que la contraseña de tu cuenta con el correo: ${user.email}, ha sido cambiada.\n\n Siempre aqui para ayudarte,\nTu Profesor Virtual`
       };
       transporter.sendMail(mailOptions, (err) => {
         req.flash('success', { msg: 'Contraseña actualizada!.' });
