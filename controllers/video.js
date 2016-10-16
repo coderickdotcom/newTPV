@@ -3,10 +3,8 @@ const _ = require('lodash');
 const async = require('async');
 const Videos = require('../models/video');
 const Block = require('../models/block');
+const videodb = require('../videodb'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
 
-var lista = [];
-var filtrado = [];
-var BlockAgreggator = [];
 
 // Videos.find((err, videos) => {
 //   lista = videos;
@@ -23,6 +21,8 @@ var BlockAgreggator = [];
 //     return e.titlenp;
 //   });
 // });
+console.log(videodb.length);
+
 
 // HORRIBLE TEST THAT SHOULD NEVER EVER BE DONE
 //TODO: FUNCTION THAT RETURNS THIS
@@ -32,14 +32,14 @@ var blockData = [
     'subject':'Matematica',
     'color':'#00ff6b',
     'totalTime': '3h',
-    'videoNumber':'10'
+    'videoNumber':'100'
   },
-  {'title': 'Las Sales',
-    'description': 'Compuesto Quimico esencial para la vida en nuestro Planeta.',
+  {'title': 'Sustancias, mezclas , y soluciones',
+    'description': 'El bloque fundamental de la quimica moderna.',
     'subject':'Quimica',
     'color':'#ff3100',
-    'totalTime': '>1h',
-    'videoNumber':'5'
+    'totalTime': '2h',
+    'videoNumber': '35'
   },
   {'title': 'Leyes de Newton',
     'description': 'Toda accion tiene una reaccion.',
@@ -66,8 +66,8 @@ var blockData = [
 // END OF HORRIBLE TEST
 
 var video = {
-  title: 'Numeros enteros',
-  link: 'https://www.youtube.com/embed/McPq8FPgl6c?rel=0&showinfo=0',
+  title: 'NÚMEROS ENTEROS. Potenciación. Ejercicio 1',
+  link: 'https://www.youtube.com/embed/GEB0FLtjvuE?rel=0&showinfo=0',
   theme: 'los numeros'
 };
 
