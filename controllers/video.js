@@ -3,7 +3,7 @@ const _ = require('lodash');
 const async = require('async');
 const Videos = require('../models/video');
 const Block = require('../models/block');
-const videodb = require('../videodb'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
+// const videodb = require('../videodb'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
 
 
 // Videos.find((err, videos) => {
@@ -21,7 +21,7 @@ const videodb = require('../videodb'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
 //     return e.titlenp;
 //   });
 // });
-console.log(videodb.length);
+
 
 
 // HORRIBLE TEST THAT SHOULD NEVER EVER BE DONE
