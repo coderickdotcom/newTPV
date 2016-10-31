@@ -75,7 +75,6 @@ exports.matematicaVideos = (req, res) => {
 
    res.render('videos/nuevos', {
      title: 'Matematica',
-     videoData: videodb,
      subjectdata: videosEstaMateria,
      materia: 'Matemática'
    });
