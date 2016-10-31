@@ -2,13 +2,12 @@ extends ../layout
 
 block content
 
-    .section.text-center(style="padding: 100px 0; background-color: #00ff6b; color: #fff")
+    .section.text-center(style="padding: 100px 0; color: #fff; background-color:#" + color)
       .container
-        h2(style="margin: 0; font-size: 50px") Los Numeros
-
-    .section(style="padding: 80px 0 0")
-      .container
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        h2(style="margin: 0; font-size: 50px") #{blockName}
+    //- .section(style="padding: 80px 0 0")
+    //-   .container
+    //-     p Están los Enteros, Racionales, Irracionales, con decimales reguales...
 
     .section(style="padding: 50px 0")
       .container
@@ -19,42 +18,4 @@ block content
               | Enteros
             ul.video-list
               li.video-list_video
-                a(href="/videos/ver") NÚMEROS ENTEROS. Potenciación. Ejercicio 1
-              li.video-list_video
-                a(href="#0") numero 2
-              li.video-list_video
-                a(href="#0") numero 3
-              li.video-list_video
-                a(href="#0") numero 4
-              li.video-list_video
-                a(href="#0") numero 5
-          li.tema-list_tema
-            h3
-              i.fa.fa-book
-              | Naturales
-            ul.video-list
-              li.video-list_video
-                a(href="#0") numero 1
-              li.video-list_video
-                a(href="#0") numero 2
-              li.video-list_video
-                a(href="#0") numero 3
-              li.video-list_video
-                a(href="#0") numero 4
-              li.video-list_video
-                a(href="#0") numero 5
-          li.tema-list_tema
-            h3
-              i.fa.fa-book
-              | Fracciones
-            ul.video-list
-              li.video-list_video
-                a(href="#0") numero 1
-              li.video-list_video
-                a(href="#0") numero 2
-              li.video-list_video
-                a(href="#0") numero 3
-              li.video-list_video
-                a(href="#0") numero 4
-              li.video-list_video
-                a(href="#0") numero 5
+                a(href="/videos/ver") potenciacion

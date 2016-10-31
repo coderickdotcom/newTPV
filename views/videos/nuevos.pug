@@ -3,24 +3,26 @@ extends ../layout
 block content
   .section(style="margin: 50px 0")
     .container
-      h2 Materias
-      p(style="margin-top: 25px") Bienvenido visitante de la FILUC! Actualmente nos encontramos agregando mas de 1500 videos a nuestra página, mientras tanto puedes ir disfrutando de todos los que tenemos para ti de manera gratuita.
+      if !materia
+        h2 Materias
+      else
+        h2 #{materia}
 
   .section(style="margin: 50px 0")
     .container
       .row
         .grid
 
-          for block in data
+          for block in subjectdata
 
             .col-sm-6.col-md-4
               .bloque
-                .bloque_top(style="background-color: " + block.color)
+                .bloque_top(style="background-color:#" + block.color)
                   .bloque_top_materia
-                    a(href="/bloque") #{block.subject}
+                    a(href="/videos/"+ block.subject) #{block.subject}
                 .bloque_content
                   h3.bloque_content_title
-                    a(href="#0") #{block.title}
+                    a(href="/bloque?name="+ block.title + "&c=" + block.color) #{block.title}
                   p.bloque_content_desc
                     | #{block.description}
                 .bloque_bottom.clearfix

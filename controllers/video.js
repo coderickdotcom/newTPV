@@ -26,58 +26,92 @@ const Block = require('../models/block');
 
 // HORRIBLE TEST THAT SHOULD NEVER EVER BE DONE
 //TODO: FUNCTION THAT RETURNS THIS
-var blockData = [
-  {'title': 'Los Numeros',
+const subjectDb = [
+  {'title': 'Numeros',
     'description': 'El bloque fundamental de la Ciencia Moderna.',
-    'subject':'Matematica',
-    'color':'#00ff6b',
+    'subject':'matematica',
+    'color':'00ff6b',
     'totalTime': '3h',
     'videoNumber':'100'
   },
-  {'title': 'Sustancias, mezclas , y soluciones',
-    'description': 'El bloque fundamental de la quimica moderna.',
-    'subject':'Quimica',
-    'color':'#ff3100',
+  {'title': 'Quimica General',
+    'description': 'El bloque fundamental de la quimica.',
+    'subject':'quimica',
+    'color':'ff3100',
     'totalTime': '2h',
     'videoNumber': '35'
   },
-  {'title': 'Leyes de Newton',
-    'description': 'Toda accion tiene una reaccion.',
-    'subject':'Fisica',
-    'color':'#0cb6ff',
+  {'title': 'Conceptos Fundamentales',
+    'description': 'El bloque basico de la fisica.',
+    'subject':'fisica',
+    'color':'0cb6ff',
     'totalTime': '4h',
     'videoNumber':'20'
-  },
-  {'title': 'Pitagoras',
-    'description': 'el padre de la trigonometria.',
-    'subject':'Fisica',
-    'color':'#0cb6ff',
-    'totalTime': '3h',
-    'videoNumber':'10'
-  },
-  {'title': 'Estequiometria',
-    'description': 'Como entender los compuestos quimicos.',
-    'subject':'Quimica',
-    'color':'#ff3100',
-    'totalTime': '3h',
-    'videoNumber':'10'
   }
 ];
 // END OF HORRIBLE TEST
 
 var video = {
   title: 'NÚMEROS ENTEROS. Potenciación. Ejercicio 1',
-  link: 'https://www.youtube.com/embed/GEB0FLtjvuE?rel=0&showinfo=0',
+  link: 'https://www.youtube.com/embed/GEB0FLtjvuE?color=white&modestbranding=1&rel=0&showinfo=0',
   theme: 'los numeros'
 };
 
+// ======================= controlador de pagina de videos general ======================= //
 exports.ultimosVideos = (req, res) => {
    res.render('videos/nuevos', {
      title: 'Videos',
-     data: blockData
+     videoData: videodb,
+     subjectdata: subjectDb
    });
  };
 
+// ======================= videos de matematica ========================================= //
+exports.matematicaVideos = (req, res) => {
+
+  let videosEstaMateria = _.filter(subjectDb, function(item) {
+    return item.subject === 'matematica';
+  });
+
+   res.render('videos/nuevos', {
+     title: 'Matematica',
+     videoData: videodb,
+     subjectdata: videosEstaMateria,
+     materia: 'Matemática'
+   });
+ };
+
+ // ======================= videos de quimica ========================================= //
+ exports.quimicaVideos = (req, res) => {
+
+   let videosEstaMateria = _.filter(subjectDb, function(item) {
+     return item.subject === 'quimica';
+   });
+
+    res.render('videos/nuevos', {
+      title: 'Quimica',
+      videoData: videodb,
+      subjectdata: videosEstaMateria,
+      materia: 'Química'
+    });
+  };
+
+// ======================= videos de fisica ========================================= //
+exports.fisicaVideos = (req, res) => {
+
+  let videosEstaMateria = _.filter(subjectDb, function(item) {
+    return item.subject === 'fisica';
+  });
+
+   res.render('videos/nuevos', {
+     title: 'Fisica',
+     videoData: videodb,
+     subjectdata: videosEstaMateria,
+     materia: 'Física'
+   });
+ };
+
+// ======================= vista de ver videos ========================================= //
  exports.verVideo = (req, res) => {
    res.render('videos/ver', {
      title: req.query.name + ' - TuProfesorVirtual',
@@ -85,9 +119,12 @@ exports.ultimosVideos = (req, res) => {
    });
  };
 
+// ======================= vista de bloques de materias ========================================= //
  exports.bloque = (req, res) => {
-
    res.render('videos/bloque', {
-     title: 'bloque'
+     title: req.query.name,
+     color: req.query.c,
+     blockName: req.query.name,
+    //  db: videodb
    });
  };
