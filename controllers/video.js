@@ -61,7 +61,6 @@ var video = {
 exports.ultimosVideos = (req, res) => {
    res.render('videos/nuevos', {
      title: 'Videos',
-     videoData: videodb,
      subjectdata: subjectDb
    });
  };
