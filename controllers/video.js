@@ -88,7 +88,6 @@ exports.matematicaVideos = (req, res) => {
 
     res.render('videos/nuevos', {
       title: 'Quimica',
-      videoData: videodb,
       subjectdata: videosEstaMateria,
       materia: 'Química'
     });
@@ -103,7 +102,6 @@ exports.fisicaVideos = (req, res) => {
 
    res.render('videos/nuevos', {
      title: 'Fisica',
-     videoData: videodb,
      subjectdata: videosEstaMateria,
      materia: 'Física'
    });
