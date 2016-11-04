@@ -12,10 +12,15 @@ block content
     .section(style="padding: 50px 0")
       .container
         ul.tema-list
-          li.tema-list_tema
-            h3
-              i.fa.fa-book
-              | Enteros
-            ul.video-list
-              li.video-list_video
-                a(href="/videos/ver") potenciacion
+
+          for tema in temas
+            li.tema-list_tema
+              h3
+                i.fa.fa-book
+                | #{tema.theme}
+
+              for video in dbVideos
+                if video.theme == tema.theme
+                  ul.video-list
+                    li.video-list_video
+                      a(href="/videos/ver?title="+video.title+"&bloque="+video.block+"&link="+video.link) #{video.title}

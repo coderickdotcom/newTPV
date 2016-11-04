@@ -3,7 +3,7 @@ const _ = require('lodash');
 const async = require('async');
 const Videos = require('../models/video');
 const Block = require('../models/block');
-// const videodb = require('../videodb'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
+const videodb = require('../videodb'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
 
 
 // Videos.find((err, videos) => {
@@ -41,7 +41,7 @@ const subjectDb = [
     'totalTime': '2h',
     'videoNumber': '35'
   },
-  {'title': 'Conceptos Fundamentales',
+  {'title': 'conceptos fundamentales',
     'description': 'El bloque basico de la fisica.',
     'subject':'fisica',
     'color':'0cb6ff',
@@ -51,11 +51,6 @@ const subjectDb = [
 ];
 // END OF HORRIBLE TEST
 
-var video = {
-  title: 'NÚMEROS ENTEROS. Potenciación. Ejercicio 1',
-  link: 'https://www.youtube.com/embed/GEB0FLtjvuE?color=white&modestbranding=1&rel=0&showinfo=0',
-  theme: 'los numeros'
-};
 
 // ======================= controlador de pagina de videos general ======================= //
 exports.ultimosVideos = (req, res) => {
@@ -107,20 +102,35 @@ exports.fisicaVideos = (req, res) => {
    });
  };
 
-// ======================= vista de ver videos ========================================= //
- exports.verVideo = (req, res) => {
-   res.render('videos/ver', {
-     title: req.query.name + ' - TuProfesorVirtual',
-     video: video
-   });
- };
 
 // ======================= vista de bloques de materias ========================================= //
  exports.bloque = (req, res) => {
+
+   let videosBloque = _.filter(videodb, function(item) {
+     return item.block === req.query.name;
+   });
+
+   //toma los primeros 10 videos de el bloque seleccionado
+   videosBloque = _.take(videosBloque, 10);
+   //carga en un documento aparte los temas de este bloque
+   let temasDelBloque =  _.uniqBy(videosBloque, 'theme');
+
+
+
    res.render('videos/bloque', {
      title: req.query.name,
      color: req.query.c,
      blockName: req.query.name,
-    //  db: videodb
+     temas: temasDelBloque,
+     dbVideos: videosBloque
    });
  };
+
+ // ======================= vista de ver videos ========================================= //
+  exports.verVideo = (req, res) => {
+    res.render('videos/ver', {
+      title: req.query.title,
+      link: req.query.link,
+      theme: req.query.theme
+    });
+  };
