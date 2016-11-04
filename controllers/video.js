@@ -3,7 +3,7 @@ const _ = require('lodash');
 const async = require('async');
 const Videos = require('../models/video');
 const Block = require('../models/block');
-const videodb = require('../videodb'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
+const videodb = require('../videoDB'); // TODO: QUITAR ESTA PIRATERIA DE AQUI
 
 
 // Videos.find((err, videos) => {
