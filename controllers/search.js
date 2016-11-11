@@ -10,19 +10,24 @@ exports.searching= (req, res) => {
   let busqueda = _.toLower(req.query.search);
   let resultados = _.filter(videodb, function(item) {
     //llevo el indice de busqueda a minuscula tambien para que sean compatibles
-    let indice = _.toLower(item.theme);
-    if (indice.indexOf(busqueda)>= 0){
+    let tema = _.toLower(item.theme);
+    let bloque = _.toLower(item.block);
+    let titulo = _.toLower(item.title);
+
+    if (tema.indexOf(busqueda)>= 0 || bloque.indexOf(busqueda)>= 0 || titulo.indexOf(busqueda)>= 0){
       return item;
     }
-
   });
+
+  let hits = resultados.length;
 
   console.log(resultados);
 
   res.render('search', {
     title: 'Busqueda',
     searchTerm: req.query.search,
-    results: resultados
+    results: resultados,
+    hits: hits
     // cantidadDeResultados: TODO: set this up
   });
 };

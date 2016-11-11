@@ -131,6 +131,6 @@ exports.fisicaVideos = (req, res) => {
     res.render('videos/ver', {
       title: req.query.title,
       link: req.query.link,
-      theme: req.query.theme
+      theme: req.query.bloque
     });
   };

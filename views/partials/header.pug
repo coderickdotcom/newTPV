@@ -10,8 +10,19 @@
       ul.nav.navbar-nav
         li(class=(title == 'Home') ? 'active' : undefined)
           a(href='/') Inicio
-        li(class=(title == 'Nuevos Videos') ? 'active' : undefined)
+        li(class=(title == 'Materias') ? 'active' : undefined)
           a(href='/videos') Materias
+        li.dropdown(class=(title == 'Account Management') ? 'active' : undefined)
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            i.caret
+          ul.dropdown-menu
+            li
+              a(href='/videos/matematica') Matematica
+            li
+              a(href='/videos/fisica') Fisica
+            li
+              a(href='/videos/quimica') Quimica
+
         li(class=(title == 'Contact') ? 'active' : undefined)
           a(href='/contact') Contacto
       ul.nav.navbar-nav.navbar-right

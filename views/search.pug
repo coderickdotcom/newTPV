@@ -1,13 +1,36 @@
 extends layout
 
 block content
-  if cantidadDeResultados
-    h1 Encontramos #{cantidadDeResultados} resultados para: #{searchTerm}
+  if hits >= 1
+    .section(style="padding: 50px 0 0px")
+      .container
+        h2 Encontramos #{hits} resultados para: #{searchTerm}
   else
-  .section(style="padding: 50px 0 80px")
-    .container
-      h3 No hemos encontrado resultados para: #{searchTerm}
-      p Revisar de nuevo en unos momentos, siempre estamos subiendo contenido nuevo.
+    .section(style="padding: 50px 0 0px")
+      .container
+        h2 No hemos encontrado resultados para: #{searchTerm}
+        p Revisar de nuevo en unos momentos, siempre estamos subiendo contenido nuevo.
+        br
+        p Mientras tanto puedes revisar toda nuestra <a href="/videos"><span class="visible-link">Biblioteca de videos que ya estan en nuestra pagina.</span></a>
 
-  for i in results
-    p #{i.title}
+  .section(style="padding: 50px 0")
+    .container
+      ul.tema-list
+        for i in results
+          .search-list_video
+            a(href="/videos/ver?title="+i.title+"&bloque="+i.block+"&link="+i.link)
+              span.visible-link
+                p #{i.title}
+            p Materia:&nbsp
+              a(href="/videos/"+i.subject) #{i.subject}
+            p
+            case i.materia
+              when quimica
+                p Bloque:&nbsp
+                  a(href="/bloque?name="+i.block+"&c=ff3100") #{i.block}
+              when fisica
+                p Bloque:&nbsp
+                  a(href="/bloque?name="+i.block+"&c=0cb6ff") #{i.block}
+              when matematica
+                p Bloque:&nbsp
+                  a(href="/bloque?name="+i.block+"&c=00ff6b") #{i.block}
