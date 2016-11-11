@@ -80,7 +80,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Eliminar S�mbolos de Agrupaci�n. Ejercicio 2",
+   "title": "NÚMEROS ENTEROS. Eliminar Símbolos de Agrupación. Ejercicio 2",
    "link": "6P6iSDykz4U",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -89,7 +89,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Propiedad Asociativa de la Suma",
+   "title": "NÚMEROS ENTEROS. Propiedad Asociativa de la Suma",
    "link": "8Hd4iOUgzkk",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -98,7 +98,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Elemento Neutro y Elemento Opuesto de la Suma",
+   "title": "NÚMEROS ENTEROS. Elemento Neutro y Elemento Opuesto de la Suma",
    "link": "9GPERb9umAY",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -107,7 +107,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Propiedad Conmutativa de la Multiplicaci�n",
+   "title": "NÚMEROS ENTEROS. Propiedad Conmutativa de la Multiplicación",
    "link": "9Xx2yGarqFY",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -116,7 +116,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Eliminar S�mbolos de Agrupaci�n. Ejercicio 4",
+   "title": "NÚMEROS ENTEROS. Eliminar Símbolos de Agrupación. Ejercicio 4",
    "link": "Av0T5qVHym4",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -125,7 +125,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Suma",
+   "title": "NÚMEROS ENTEROS. Suma",
    "link": "AVhnxtF9unI",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -134,7 +134,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Representar Gr�ficamente los Enunciados. Ejercicio 5",
+   "title": "NÚMEROS ENTEROS. Representar Gráficamente los Enunciados. Ejercicio 5",
    "link": "-C7JMhcD59k",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -143,7 +143,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Realizar Operaciones Entre N�meros Enteros. Grupo 2. Ejercicio 2",
+   "title": "NÚMEROS ENTEROS. Realizar Operaciones Entre Números Enteros. Grupo 2. Ejercicio 2",
    "link": "C8mmuel7RcY",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -152,7 +152,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. S�mbolos de Agrupaci�n",
+   "title": "NÚMEROS ENTEROS. Símbolos de Agrupación",
    "link": "CkizAt4WWjE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -161,7 +161,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Propiedad Asociativa de la Multiplicaci�n",
+   "title": "NÚMEROS ENTEROS. Propiedad Asociativa de la Multiplicación",
    "link": "E8LUxjoo_Ww",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -170,7 +170,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Eliminar S�mbolos de Agrupaci�n. Ejercicio 1",
+   "title": "NÚMEROS ENTEROS. Eliminar Símbolos de Agrupación. Ejercicio 1",
    "link": "eDdpdJ00BwE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -179,7 +179,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Reglas de la Multiplicaci�n de Signos",
+   "title": "NÚMEROS ENTEROS. Reglas de la Multiplicación de Signos",
    "link": "FdgzRbxxa3A",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -188,7 +188,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Eliminar S�mbolos de Agrupaci�n. Ejercicio 3",
+   "title": "NÚMEROS ENTEROS. Eliminar Símbolos de Agrupación. Ejercicio 3",
    "link": "Fe5s_ws8DF0",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -197,7 +197,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Potenciaci�n. Ejercicio 1",
+   "title": "NÚMEROS ENTEROS. Potenciación. Ejercicio 1",
    "link": "GEB0FLtjvuE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -206,7 +206,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. P�rdidas, Representaci�n Grafica de los N�meros Enteros",
+   "title": "NÚMEROS ENTEROS. P�rdidas, Representación Grafica de los Números Enteros",
    "link": "IiQTe-T7F6A",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -215,7 +215,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Propiedades de la Potenciaci�n",
+   "title": "NÚMEROS ENTEROS. Propiedades de la Potenciación",
    "link": "lYr_ZIXtyAI",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -224,7 +224,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Eliminaci�n de S�mbolos de Agrupaci�n",
+   "title": "NÚMEROS ENTEROS. Eliminación de Símbolos de Agrupación",
    "link": "mchiw23E3AI",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -233,7 +233,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Potenciaci�n. Ejercicio 3",
+   "title": "NÚMEROS ENTEROS. Potenciación. Ejercicio 3",
    "link": "nOU-MIdGr_8",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -242,7 +242,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Potenciaci�n",
+   "title": "NÚMEROS ENTEROS. Potenciación",
    "link": "OF4Y1nCy3cA",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -251,7 +251,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Representar Gr�ficamente los Enunciados. Grupo 1. Ejercicios 1 al 4",
+   "title": "NÚMEROS ENTEROS. Representar Gráficamente los Enunciados. Grupo 1. Ejercicios 1 al 4",
    "link": "oUOAezo10xo",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -260,7 +260,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Resta",
+   "title": "NÚMEROS ENTEROS. Resta",
    "link": "pyLSbXHYUr4",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -269,7 +269,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Potenciaci�n. Ejercicio 2",
+   "title": "NÚMEROS ENTEROS. Potenciación. Ejercicio 2",
    "link": "RzF7bI8-rNA",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -278,7 +278,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Aplicaci�n de las Propiedades de la Potenciaci�n",
+   "title": "NÚMEROS ENTEROS. Aplicación de las Propiedades de la Potenciación",
    "link": "T8-e3HB8pvI",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -287,7 +287,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Potenciaci�n. Ejercicio 4",
+   "title": "NÚMEROS ENTEROS. Potenciación. Ejercicio 4",
    "link": "Te5ejPt9_x4",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -296,7 +296,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Propiedad Conmutativa de la Suma",
+   "title": "NÚMEROS ENTEROS. Propiedad Conmutativa de la Suma",
    "link": "uojAl8OVEY8",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -305,7 +305,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Elemento Neutro de la Multiplicaci�n",
+   "title": "NÚMEROS ENTEROS. Elemento Neutro de la Multiplicación",
    "link": "UVxyMn3U80g",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -314,7 +314,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Representar Gr�ficamente los Enunciados. Grupo 2. Ejercicios 1 al 3",
+   "title": "NÚMEROS ENTEROS. Representar Gráficamente los Enunciados. Grupo 2. Ejercicios 1 al 3",
    "link": "wBHtldswHmg",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -323,7 +323,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Multiplicaci�n",
+   "title": "NÚMEROS ENTEROS. Multiplicación",
    "link": "X9VemoCe5Nc",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -332,7 +332,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Divisi�n",
+   "title": "NÚMEROS ENTEROS. División",
    "link": "yNbwfscAxMo",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -341,7 +341,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "N�MEROS ENTEROS. Establecer Relaci�n de Orden. Ejercicios",
+   "title": "NÚMEROS ENTEROS. Establecer Relación de Orden. Ejercicios",
    "link": "yp7FWXzThzI",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -350,7 +350,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Propiedades de la Adici�n",
+   "title": "NÚMEROS NATURALES. Propiedades de la Adición",
    "link": "JAHqQfiHEYI",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -359,7 +359,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Propiedades Distributiva",
+   "title": "NÚMEROS NATURALES. Propiedades Distributiva",
    "link": "JNlOvljE9WU",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -368,7 +368,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Propiedades de la Potenciaci�n",
+   "title": "NÚMEROS NATURALES. Propiedades de la Potenciación",
    "link": "NCrxwNASagg",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -377,7 +377,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Aplicando Propiedades de la Potenciaci�n",
+   "title": "NÚMEROS NATURALES. Aplicando Propiedades de la Potenciación",
    "link": "RFuqbxM5HXE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -386,7 +386,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Operaciones.  Propiedades de la Multiplicaci�n",
+   "title": "NÚMEROS NATURALES. Operaciones.  Propiedades de la Multiplicación",
    "link": "RwUe6t6RPcc",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -395,7 +395,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Definici�n",
+   "title": "NÚMEROS NATURALES. Definición",
    "link": "SsKUcbNlfu8",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -404,7 +404,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Operaciones. Sustracci�n",
+   "title": "NÚMEROS NATURALES. Operaciones. Sustracción",
    "link": "stjM-o3qvMM",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -413,7 +413,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "N�MEROS NATURALES. Aplicar Definici�n de Potencia o Propiedades Seg�n Sea el Caso. Ejercicio 2",
+   "title": "NÚMEROS NATURALES. Aplicar Definición de Potencia o Propiedades Seg�n Sea el Caso. Ejercicio 2",
    "link": "tYKUY7DR2OQ",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -422,7 +422,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones con Igual Denominador. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones con Igual Denominador. Ejercicio 2",
    "link": "_iBvRAiTyCE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -431,7 +431,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Operaciones Combinadas. Multiplicaci�n y Divisi�n. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Operaciones Combinadas. Multiplicación y División. Ejercicio 1",
    "link": "_M-2p6Y0RPw",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -440,7 +440,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracci�n Generatriz de Decimal Peri�dico Mixto. Construyendo Ecuaci�n. E 1",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Mixto. Construyendo Ecuación. E 1",
    "link": "_yeoeiXfkKY",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -449,7 +449,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Operaciones con Fracciones. Divisi�n ",
+   "title": "NÚMEROS RACIONALES. Operaciones con Fracciones. División ",
    "link": "1IV0P0Z0dc0",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -458,7 +458,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Transformaci�n de Fraccionarios a Decimales. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Transformación de Fraccionarios a Decimales. Ejercicio 1",
    "link": "2zpdF54ysd0",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -467,7 +467,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracciones Equivalentes. Ampliaci�n de Fracciones,  Reducci�n de Fracciones",
+   "title": "NÚMEROS RACIONALES. Fracciones Equivalentes. Ampliación de Fracciones,  Reducción de Fracciones",
    "link": "6W607P4Wvew",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -476,7 +476,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracci�n Generatriz de Decimal Peri�dico Mixto. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Mixto. Ejercicio 2",
    "link": "90Qq_CGQ4IU",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -485,7 +485,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Multiplicaci�n de Fracciones. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Multiplicación de Fracciones. Ejercicio 1",
    "link": "9ZtQhem7S4w",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -494,7 +494,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Hallar la Fracci�n Generatriz. Aplicando F�rmulas",
+   "title": "NÚMEROS RACIONALES. Hallar la Fracción Generatriz. Aplicando F�rmulas",
    "link": "a0Fp6JMoaHc",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -503,7 +503,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 1",
    "link": "--aBuQQCUOQ",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -512,7 +512,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracci�n Generatriz de Decimal Exacto ",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Exacto ",
    "link": "AcRtcmbll8s",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -521,7 +521,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Expresar en Notaci�n Cient�fica. Enteros y Decimales. Ejercicio 1  ",
+   "title": "NÚMEROS RACIONALES. Expresar en Notación Cient�fica. Enteros y Decimales. Ejercicio 1  ",
    "link": "aK1hbY0MxaE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -530,7 +530,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracci�n Generatriz de Decimal Peri�dico Puro. Construyendo Ecuaci�n. E 1  ",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Puro. Construyendo Ecuación. E 1  ",
    "link": "ax5pGzCbfac",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -539,7 +539,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Definici�n seg�n su forma",
+   "title": "NÚMEROS RACIONALES. Definición seg�n su forma",
    "link": "cDC5cf3oEA0",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -548,7 +548,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones. N�meros Mixtos. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones. Números Mixtos. Ejercicio 1",
    "link": "CIungUU0xHs",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -557,7 +557,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Operaciones con Fracciones. Suma ",
+   "title": "NÚMEROS RACIONALES. Operaciones con Fracciones. Suma ",
    "link": "C-uczamnWzE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -566,7 +566,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones con Igual Denominador. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones con Igual Denominador. Ejercicio 1",
    "link": "cvqq2W3C6OU",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -575,7 +575,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Multiplicaci�n de Fracciones. Ejercicio 3",
+   "title": "NÚMEROS RACIONALES. Multiplicación de Fracciones. Ejercicio 3",
    "link": "e7YgqjMPcOg",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -584,7 +584,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracciones Irreducibles. Fracciones Propias e  Impropias. N�meros Mixtos ",
+   "title": "NÚMEROS RACIONALES. Fracciones Irreducibles. Fracciones Propias e  Impropias. Números Mixtos ",
    "link": "g1hOvz12BOg",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -593,7 +593,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Multiplicaci�n de Fracciones. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Multiplicación de Fracciones. Ejercicio 2",
    "link": "hEj9RxEnYOQ",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -602,7 +602,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 2",
    "link": "ihdGgkM-iGI",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -611,7 +611,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Operaciones con Fracciones. Multiplicaci�n",
+   "title": "NÚMEROS RACIONALES. Operaciones con Fracciones. Multiplicación",
    "link": "j2dNYJhQKBM",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -620,7 +620,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones. N�meros Mixtos. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones. Números Mixtos. Ejercicio 2",
    "link": "k1TfMJ4ZHos",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -629,7 +629,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Ropiedades de la Suma, Multiplicaci�n y potencia",
+   "title": "NÚMEROS RACIONALES. Ropiedades de la Suma, Multiplicación y potencia",
    "link": "kkLJ6ryULVY",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -638,7 +638,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 4",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 4",
    "link": "L_AogxMO2O4",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -647,7 +647,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracci�n Generatriz de Decimal Peri�dico Mixto. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Mixto. Ejercicio 1",
    "link": "MEw0Z1yHx1s",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -656,7 +656,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracci�n Generatriz de Decimal Peri�dico Puro. Construyendo Ecuaci�n. E 2  ",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Puro. Construyendo Ecuación. E 2  ",
    "link": "PludTODxa6w",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -665,7 +665,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Notaci�n Cient�fica. Multiplicar y Divisi�n por Potencia de 10",
+   "title": "NÚMEROS RACIONALES. Notación Cient�fica. Multiplicar y División por Potencia de 10",
    "link": "Pq2kFRrN0bs",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -674,7 +674,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Definici�n seg�n su valor",
+   "title": "NÚMEROS RACIONALES. Definición seg�n su valor",
    "link": "t408co1CMaA",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -683,7 +683,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Fracci�n Generatriz de Decimal Peri�dico Puro. Aplicando F�rmula. E 1",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Puro. Aplicando F�rmula. E 1",
    "link": "tgqSG8lk5VQ",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -692,7 +692,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 3",
+   "title": "NÚMEROS RACIONALES. Suma de Fracciones con Distintos Denominadores. Ejercicio 3",
    "link": "tsRW3uCoIaA",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -701,7 +701,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "N�MEROS RACIONALES. Expresar en Notaci�n Cient�fica. Enteros y Decimales. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Expresar en Notación Cient�fica. Enteros y Decimales. Ejercicio 2",
    "link": "XIepB5XwpkA",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -710,7 +710,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Propiedades No Caracter�sticas de los materiales - Lecci�n Te�rica",
+   "title": "Propiedades No Caracter�sticas de los materiales - Lección Te�rica",
    "link": "7VRVlsjzZps",
    "server": "",
    "PREMIUM": ""
@@ -719,7 +719,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "test der test test test",
-   "title": "Propiedades No Caracter�sticas de los materiales - Lecci�n Te�rica",
+   "title": "Propiedades No Caracter�sticas de los materiales - Lección Te�rica",
    "link": "7VRVlsjzZps",
    "server": "",
    "PREMIUM": ""
@@ -746,7 +746,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Irregulares - Lecci�n Te�rica",
+   "title": "Volumen de los S�lidos Irregulares - Lección Te�rica",
    "link": "8NzTVWBtln0",
    "server": "",
    "PREMIUM": ""
@@ -755,7 +755,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Regulares - Lecci�n Te�rica",
+   "title": "Volumen de los S�lidos Regulares - Lección Te�rica",
    "link": "D_LhOBtnXtY",
    "server": "",
    "PREMIUM": ""
@@ -764,7 +764,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Regulares- Lecci�n Pr�ctica 1",
+   "title": "Volumen de los S�lidos Regulares- Lección Pr�ctica 1",
    "link": "zHHgg93VFTY",
    "server": "",
    "PREMIUM": ""
@@ -773,7 +773,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Regulares- Lecci�n Pr�ctica 2",
+   "title": "Volumen de los S�lidos Regulares- Lección Pr�ctica 2",
    "link": "Tzus70mgVJU",
    "server": "",
    "PREMIUM": ""
@@ -782,7 +782,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Volumen- Lecci�n te�rica 1",
+   "title": "Transformación de Unidades de Volumen- Lección te�rica 1",
    "link": "uDLpx13VimQ",
    "server": "",
    "PREMIUM": ""
@@ -791,7 +791,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Volumen- Lecci�n te�rica 2",
+   "title": "Transformación de Unidades de Volumen- Lección te�rica 2",
    "link": "RAVYcVlQIv4",
    "server": "",
    "PREMIUM": ""
@@ -800,7 +800,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Volumen- Lecci�n te�rica 3",
+   "title": "Transformación de Unidades de Volumen- Lección te�rica 3",
    "link": "jUbhk8_01K8",
    "server": "",
    "PREMIUM": ""
@@ -809,7 +809,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Volumen- Lecci�n Pr�ctica 1",
+   "title": "Transformación de Unidades de Volumen- Lección Pr�ctica 1",
    "link": "7vAssleinpM",
    "server": "",
    "PREMIUM": ""
@@ -818,7 +818,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Volumen- Lecci�n Pr�ctica 2",
+   "title": "Transformación de Unidades de Volumen- Lección Pr�ctica 2",
    "link": "MsIl3ZgVIwg",
    "server": "",
    "PREMIUM": ""
@@ -827,7 +827,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Unidades de Volumen.-Equivalencias entre Sistemas. Lecci�n Te�rica",
+   "title": "Unidades de Volumen.-Equivalencias entre Sistemas. Lección Te�rica",
    "link": "Mknfx7dH8o8",
    "server": "",
    "PREMIUM": ""
@@ -836,7 +836,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Temperatura- Lecci�n Te�rica",
+   "title": "Transformación de Unidades de Temperatura- Lección Te�rica",
    "link": "NJUKF1znEmM",
    "server": "",
    "PREMIUM": ""
@@ -845,7 +845,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Temperatura- Lecci�n Pr�ctica 1",
+   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 1",
    "link": "PJDV8xKGdMs",
    "server": "",
    "PREMIUM": ""
@@ -854,7 +854,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Temperatura- Lecci�n Pr�ctica 2",
+   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 2",
    "link": "fAq-YQiWuks",
    "server": "",
    "PREMIUM": ""
@@ -863,7 +863,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Temperatura- Lecci�n Pr�ctica 3",
+   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 3",
    "link": "Ic_7Yyj0nNo",
    "server": "",
    "PREMIUM": ""
@@ -872,7 +872,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de Temperatura- Lecci�n Pr�ctica 4",
+   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 4",
    "link": "OAzZuH0GnTQ",
    "server": "",
    "PREMIUM": ""
@@ -881,7 +881,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de masa- Lecci�n Te�rica 1",
+   "title": "Transformación de Unidades de masa- Lección Te�rica 1",
    "link": "b0QX-ejXMdA",
    "server": "",
    "PREMIUM": ""
@@ -890,7 +890,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de masa- Lecci�n Te�rica 2",
+   "title": "Transformación de Unidades de masa- Lección Te�rica 2",
    "link": "7Rq5x07oa6g",
    "server": "",
    "PREMIUM": ""
@@ -899,7 +899,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de masa- Lecci�n Pr�ctica 1",
+   "title": "Transformación de Unidades de masa- Lección Pr�ctica 1",
    "link": "YQhswB9-kKQ",
    "server": "",
    "PREMIUM": ""
@@ -908,7 +908,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de masa- Lecci�n Pr�ctica 2",
+   "title": "Transformación de Unidades de masa- Lección Pr�ctica 2",
    "link": "WFLk6qEBao4",
    "server": "",
    "PREMIUM": ""
@@ -917,7 +917,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformaci�n de Unidades de masa- Lecci�n Pr�ctica 3",
+   "title": "Transformación de Unidades de masa- Lección Pr�ctica 3",
    "link": "Dd87b8UEdps",
    "server": "",
    "PREMIUM": ""
@@ -926,7 +926,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Relaci�n entre Volumen y Capacidad- Lecci�n Te�rica",
+   "title": "Relación entre Volumen y Capacidad- Lección Te�rica",
    "link": "00tbvfVXjoY",
    "server": "",
    "PREMIUM": ""
@@ -935,7 +935,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Relaci�n entre Volumen y Capacidad- Lecci�n Pr�ctica 1",
+   "title": "Relación entre Volumen y Capacidad- Lección Pr�ctica 1",
    "link": "COWYuhVeQL4",
    "server": "",
    "PREMIUM": ""
@@ -944,7 +944,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Relaci�n entre Volumen y Capacidad- Lecci�n Pr�ctica 2",
+   "title": "Relación entre Volumen y Capacidad- Lección Pr�ctica 2",
    "link": "jr-pSDZuqk4",
    "server": "",
    "PREMIUM": ""
@@ -953,7 +953,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Propiedades Caracter�sticas de los materiales- Lecci�n Te�rica",
+   "title": "Propiedades Caracter�sticas de los materiales- Lección Te�rica",
    "link": "q9gz5QtU8Oo",
    "server": "",
    "PREMIUM": ""
@@ -962,7 +962,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Punto de fusi�n- Lecci�n Te�rica",
+   "title": "Punto de fusi�n- Lección Te�rica",
    "link": "LL8WuRN9IqI",
    "server": "",
    "PREMIUM": ""
@@ -971,7 +971,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Punto de ebullici�n- Lecci�n Te�rica",
+   "title": "Punto de ebullición- Lección Te�rica",
    "link": "WIyEkQ7_9hE",
    "server": "",
    "PREMIUM": ""
@@ -980,7 +980,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Diagramas de fases- Lecci�n Te�rica",
+   "title": "Diagramas de fases- Lección Te�rica",
    "link": "9ViwURCHzis",
    "server": "",
    "PREMIUM": ""
@@ -989,7 +989,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lecci�n Te�rica",
+   "title": "Densidad -Lección Te�rica",
    "link": "ja8wZbUY8dQ",
    "server": "",
    "PREMIUM": ""
@@ -998,7 +998,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lecci�n Pr�ctica 1",
+   "title": "Densidad -Lección Pr�ctica 1",
    "link": "J0llOhCudtg",
    "server": "",
    "PREMIUM": ""
@@ -1007,7 +1007,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lecci�n Pr�ctica 2",
+   "title": "Densidad -Lección Pr�ctica 2",
    "link": "J-TaQWWp1jI",
    "server": "",
    "PREMIUM": ""
@@ -1016,7 +1016,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lecci�n Pr�ctica 3",
+   "title": "Densidad -Lección Pr�ctica 3",
    "link": "972pqAagty0",
    "server": "",
    "PREMIUM": ""
@@ -1025,7 +1025,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lecci�n Pr�ctica 4",
+   "title": "Densidad -Lección Pr�ctica 4",
    "link": "xUAAI0LNXHs",
    "server": "",
    "PREMIUM": ""
@@ -1034,7 +1034,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lecci�n Te�rica 1",
+   "title": "Solubilidad - Lección Te�rica 1",
    "link": "ZTJ-qGf6IUw",
    "server": "",
    "PREMIUM": ""
@@ -1043,7 +1043,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lecci�n Te�rica 2",
+   "title": "Solubilidad - Lección Te�rica 2",
    "link": "YJHkk19zHaE",
    "server": "",
    "PREMIUM": ""
@@ -1052,7 +1052,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lecci�n Pr�ctica 1",
+   "title": "Solubilidad - Lección Pr�ctica 1",
    "link": "f6zbB5KT76o",
    "server": "",
    "PREMIUM": ""
@@ -1061,7 +1061,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lecci�n Pr�ctica 2",
+   "title": "Solubilidad - Lección Pr�ctica 2",
    "link": "QPS_gQQf89s",
    "server": "",
    "PREMIUM": ""
@@ -1070,7 +1070,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lecci�n Pr�ctica 3",
+   "title": "Solubilidad - Lección Pr�ctica 3",
    "link": "Z6wy5wYeQ9E",
    "server": "",
    "PREMIUM": ""
@@ -1079,7 +1079,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Mezclas (Definici�n y Caracter�sticas) - Lecci�n Te�rica 1",
+   "title": "Mezclas (Definición y Caracter�sticas) - Lección Te�rica 1",
    "link": "_FvJdO04LNs",
    "server": "",
    "PREMIUM": ""
@@ -1088,7 +1088,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Mezclas (Clasificaci�n) - Lecci�n Te�rica 2",
+   "title": "Mezclas (Clasificación) - Lección Te�rica 2",
    "link": "qI7sYrFvEyc",
    "server": "",
    "PREMIUM": ""
@@ -1097,7 +1097,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Diferenciar Soluciones y Coloides - Lecci�n Te�rica",
+   "title": "Diferenciar Soluciones y Coloides - Lección Te�rica",
    "link": "uOmJl3CWiw4",
    "server": "",
    "PREMIUM": ""
@@ -1106,7 +1106,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separaci�n de mezclas (Introducci�n) - Lecci�n Te�rica 1",
+   "title": "T�cnicas de separación de mezclas (Introducción) - Lección Te�rica 1",
    "link": "XVYAUiHbHXE",
    "server": "",
    "PREMIUM": ""
@@ -1115,7 +1115,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Decantaci�n y Centrifugaci�n  (T�cnicas de separaci�n de mezclas) - Lecci�n Te�rica 2",
+   "title": "Decantación y Centrifugación  (T�cnicas de separación de mezclas) - Lección Te�rica 2",
    "link": "io0wycDw_H8",
    "server": "",
    "PREMIUM": ""
@@ -1124,7 +1124,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separaci�n de mezclas (Filtraci�n) - Lecci�n Te�rica 3",
+   "title": "T�cnicas de separación de mezclas (Filtración) - Lección Te�rica 3",
    "link": "untAs-qw8Ks",
    "server": "",
    "PREMIUM": ""
@@ -1133,7 +1133,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separaci�n de mezclas de s�lidos  - Lecci�n Te�rica 4",
+   "title": "T�cnicas de separación de mezclas de s�lidos  - Lección Te�rica 4",
    "link": "5B-CaNI8mD0",
    "server": "",
    "PREMIUM": ""
@@ -1142,7 +1142,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separaci�n de mezclas que contienen gases (Gas/L�quido y Gas/Gas) - Lecci�n Te�rica 5",
+   "title": "T�cnicas de separación de mezclas que contienen gases (Gas/L�quido y Gas/Gas) - Lección Te�rica 5",
    "link": "dECkmnvcgHQ",
    "server": "",
    "PREMIUM": ""
@@ -1151,7 +1151,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separaci�n de mezclas (Destilaci�n y Evaporaci�n) - Lecci�n Te�rica 6",
+   "title": "T�cnicas de separación de mezclas (Destilación y Evaporación) - Lección Te�rica 6",
    "link": "aNB5x4Z_H5Y",
    "server": "",
    "PREMIUM": ""
@@ -1160,7 +1160,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separaci�n de mezclas (Cristalizaci�n y �smosis) - Lecci�n Te�rica 7",
+   "title": "T�cnicas de separación de mezclas (Cristalización y �smosis) - Lección Te�rica 7",
    "link": "sRoCgZGXH_s",
    "server": "",
    "PREMIUM": ""
@@ -1169,7 +1169,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Soluciones Expresines de Concentraci�n - Lecci�n Te�rica ",
+   "title": "Soluciones Expresines de Concentración - Lección Te�rica ",
    "link": "z-b709F4czA",
    "server": "",
    "PREMIUM": ""
@@ -1178,7 +1178,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Expresiones Cualitativas de la concentraci�n - Lecci�n Te�rica",
+   "title": "Expresiones Cualitativas de la concentración - Lección Te�rica",
    "link": "kelTlqBoCQg",
    "server": "",
    "PREMIUM": ""
@@ -1187,7 +1187,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Mol - Lecci�n Te�rica",
+   "title": "Mol - Lección Te�rica",
    "link": "xJxiCu-vwDM",
    "server": "",
    "PREMIUM": ""
@@ -1205,7 +1205,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Masa Molecular - Lecci�n Te�rica",
+   "title": "Masa Molecular - Lección Te�rica",
    "link": "infcl7eD27s",
    "server": "",
    "PREMIUM": ""
@@ -1214,7 +1214,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Masa Molecular - Lecci�n Pr�ctica",
+   "title": "Masa Molecular - Lección Pr�ctica",
    "link": "hgLgm9rZHsE",
    "server": "",
    "PREMIUM": ""
@@ -1223,7 +1223,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Cantidad de Sustancia - Lecci�n Pr�ctica",
+   "title": "Cantidad de Sustancia - Lección Pr�ctica",
    "link": "QC-rGmPKEPw",
    "server": "",
    "PREMIUM": ""
@@ -1232,7 +1232,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Peso equivalente - Lecci�n Te�rica",
+   "title": "Peso equivalente - Lección Te�rica",
    "link": "XIZYjz-LrBA",
    "server": "",
    "PREMIUM": ""
@@ -1241,7 +1241,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molaridad - Leci�n Te�rica",
+   "title": "Molaridad - Leción Te�rica",
    "link": "8U3r4XwP6lk",
    "server": "",
    "PREMIUM": ""
@@ -1250,7 +1250,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molaridad - Leci�n Pr�ctica",
+   "title": "Molaridad - Leción Pr�ctica",
    "link": "FyhNOg43Pi8",
    "server": "",
    "PREMIUM": ""
@@ -1259,7 +1259,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Normalidad - Lecci�n Te�rica",
+   "title": "Normalidad - Lección Te�rica",
    "link": "c8ccaGPdIxg",
    "server": "",
    "PREMIUM": ""
@@ -1268,7 +1268,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Normalidad - Lecci�n Pr�ctica",
+   "title": "Normalidad - Lección Pr�ctica",
    "link": "ku8KIMtSpJM",
    "server": "",
    "PREMIUM": ""
@@ -1277,7 +1277,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molalidad - Lecci�n Te�rica",
+   "title": "Molalidad - Lección Te�rica",
    "link": "ed94m_H9Z4c",
    "server": "",
    "PREMIUM": ""
@@ -1286,7 +1286,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molalidad - Lecci�n Pr�ctica",
+   "title": "Molalidad - Lección Pr�ctica",
    "link": "bDPwmI5gNnU",
    "server": "",
    "PREMIUM": ""
@@ -1295,7 +1295,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Fraci�n Molar - Lecci�n Te�rica",
+   "title": "Fración Molar - Lección Te�rica",
    "link": "hlBIWwuQfcU",
    "server": "",
    "PREMIUM": ""
@@ -1304,7 +1304,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Fraci�n Molar - Lecci�n Pr�ctica",
+   "title": "Fración Molar - Lección Pr�ctica",
    "link": "cRrDks56duw",
    "server": "",
    "PREMIUM": ""
@@ -1313,7 +1313,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Disoluci�n, Unidades Qu�micas - Lecci�n Te�rica",
+   "title": "Disolución, Unidades Qu�micas - Lección Te�rica",
    "link": "BLQYifw0aG0",
    "server": "",
    "PREMIUM": ""
