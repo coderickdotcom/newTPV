@@ -206,7 +206,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "ENTEROS",
-   "title": "NÚMEROS ENTEROS. P�rdidas, Representación Grafica de los Números Enteros",
+   "title": "NÚMEROS ENTEROS. Representación Grafica de los Números Enteros",
    "link": "IiQTe-T7F6A",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -413,7 +413,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "NATURALES",
-   "title": "NÚMEROS NATURALES. Aplicar Definición de Potencia o Propiedades Seg�n Sea el Caso. Ejercicio 2",
+   "title": "NÚMEROS NATURALES. Aplicar Definición de Potencia o Propiedades Según Sea el Caso. Ejercicio 2",
    "link": "tYKUY7DR2OQ",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -440,7 +440,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Mixto. Construyendo Ecuación. E 1",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Periódico Mixto. Construyendo Ecuación. E 1",
    "link": "_yeoeiXfkKY",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -476,7 +476,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Mixto. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Periódico Mixto. Ejercicio 2",
    "link": "90Qq_CGQ4IU",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -494,7 +494,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Hallar la Fracción Generatriz. Aplicando F�rmulas",
+   "title": "NÚMEROS RACIONALES. Hallar la Fracción Generatriz. Aplicando Fórmulas",
    "link": "a0Fp6JMoaHc",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -521,7 +521,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Expresar en Notación Cient�fica. Enteros y Decimales. Ejercicio 1  ",
+   "title": "NÚMEROS RACIONALES. Expresar en Notación Científica. Enteros y Decimales. Ejercicio 1  ",
    "link": "aK1hbY0MxaE",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -530,7 +530,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Puro. Construyendo Ecuación. E 1  ",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Periódico Puro. Construyendo Ecuación. E 1  ",
    "link": "ax5pGzCbfac",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -539,7 +539,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Definición seg�n su forma",
+   "title": "NÚMEROS RACIONALES. Definición segun su forma",
    "link": "cDC5cf3oEA0",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -647,7 +647,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Mixto. Ejercicio 1",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Periódico Mixto. Ejercicio 1",
    "link": "MEw0Z1yHx1s",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -656,7 +656,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Puro. Construyendo Ecuación. E 2  ",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Periódico Puro. Construyendo Ecuación. E 2  ",
    "link": "PludTODxa6w",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -665,7 +665,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Notación Cient�fica. Multiplicar y División por Potencia de 10",
+   "title": "NÚMEROS RACIONALES. Notación Científica. Multiplicar y División por Potencia de 10",
    "link": "Pq2kFRrN0bs",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -674,7 +674,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Definición seg�n su valor",
+   "title": "NÚMEROS RACIONALES. Definición según su valor",
    "link": "t408co1CMaA",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -683,7 +683,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Peri�dico Puro. Aplicando F�rmula. E 1",
+   "title": "NÚMEROS RACIONALES. Fracción Generatriz de Decimal Periódico Puro. Aplicando Fórmula. E 1",
    "link": "tgqSG8lk5VQ",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -701,7 +701,7 @@ var videodb = [
    "subject": "matematica",
    "block": "Numeros",
    "theme": "RACIONALES",
-   "title": "NÚMEROS RACIONALES. Expresar en Notación Cient�fica. Enteros y Decimales. Ejercicio 2",
+   "title": "NÚMEROS RACIONALES. Expresar en Notación Científica. Enteros y Decimales. Ejercicio 2",
    "link": "XIepB5XwpkA",
    "server": "Youtube",
    "PREMIUM": "NO"
@@ -710,16 +710,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Propiedades No Caracter�sticas de los materiales - Lección Te�rica",
-   "link": "7VRVlsjzZps",
-   "server": "",
-   "PREMIUM": ""
- },
- {
-   "subject": "quimica",
-   "block": "Quimica General",
-   "theme": "test der test test test",
-   "title": "Propiedades No Caracter�sticas de los materiales - Lección Te�rica",
+   "title": "Propiedades No Características de los materiales - Lección Teórica",
    "link": "7VRVlsjzZps",
    "server": "",
    "PREMIUM": ""
@@ -737,7 +728,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los l�quidos",
+   "title": "Volumen de los líquidos",
    "link": "dbv5WmzRAk0",
    "server": "",
    "PREMIUM": ""
@@ -746,7 +737,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Irregulares - Lección Te�rica",
+   "title": "Volumen de los Sólidos Irregulares - Lección Teórica",
    "link": "8NzTVWBtln0",
    "server": "",
    "PREMIUM": ""
@@ -755,7 +746,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Regulares - Lección Te�rica",
+   "title": "Volumen de los Sólidos Regulares - Lección Teórica",
    "link": "D_LhOBtnXtY",
    "server": "",
    "PREMIUM": ""
@@ -764,7 +755,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Regulares- Lección Pr�ctica 1",
+   "title": "Volumen de los Sólidos Regulares- Lección Práctica 1",
    "link": "zHHgg93VFTY",
    "server": "",
    "PREMIUM": ""
@@ -773,7 +764,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Volumen de los S�lidos Regulares- Lección Pr�ctica 2",
+   "title": "Volumen de los Sólidos Regulares- Lección Práctica 2",
    "link": "Tzus70mgVJU",
    "server": "",
    "PREMIUM": ""
@@ -782,7 +773,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Volumen- Lección te�rica 1",
+   "title": "Transformación de Unidades de Volumen- Lección teórica 1",
    "link": "uDLpx13VimQ",
    "server": "",
    "PREMIUM": ""
@@ -791,7 +782,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Volumen- Lección te�rica 2",
+   "title": "Transformación de Unidades de Volumen- Lección teórica 2",
    "link": "RAVYcVlQIv4",
    "server": "",
    "PREMIUM": ""
@@ -800,7 +791,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Volumen- Lección te�rica 3",
+   "title": "Transformación de Unidades de Volumen- Lección teórica 3",
    "link": "jUbhk8_01K8",
    "server": "",
    "PREMIUM": ""
@@ -809,7 +800,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Volumen- Lección Pr�ctica 1",
+   "title": "Transformación de Unidades de Volumen- Lección Práctica 1",
    "link": "7vAssleinpM",
    "server": "",
    "PREMIUM": ""
@@ -818,7 +809,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Volumen- Lección Pr�ctica 2",
+   "title": "Transformación de Unidades de Volumen- Lección Práctica 2",
    "link": "MsIl3ZgVIwg",
    "server": "",
    "PREMIUM": ""
@@ -827,7 +818,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Unidades de Volumen.-Equivalencias entre Sistemas. Lección Te�rica",
+   "title": "Unidades de Volumen.-Equivalencias entre Sistemas. Lección Teórica",
    "link": "Mknfx7dH8o8",
    "server": "",
    "PREMIUM": ""
@@ -836,7 +827,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Temperatura- Lección Te�rica",
+   "title": "Transformación de Unidades de Temperatura- Lección Teórica",
    "link": "NJUKF1znEmM",
    "server": "",
    "PREMIUM": ""
@@ -845,7 +836,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 1",
+   "title": "Transformación de Unidades de Temperatura- Lección Práctica 1",
    "link": "PJDV8xKGdMs",
    "server": "",
    "PREMIUM": ""
@@ -854,7 +845,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 2",
+   "title": "Transformación de Unidades de Temperatura- Lección Práctica 2",
    "link": "fAq-YQiWuks",
    "server": "",
    "PREMIUM": ""
@@ -863,7 +854,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 3",
+   "title": "Transformación de Unidades de Temperatura- Lección Práctica 3",
    "link": "Ic_7Yyj0nNo",
    "server": "",
    "PREMIUM": ""
@@ -872,7 +863,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de Temperatura- Lección Pr�ctica 4",
+   "title": "Transformación de Unidades de Temperatura- Lección Práctica 4",
    "link": "OAzZuH0GnTQ",
    "server": "",
    "PREMIUM": ""
@@ -881,7 +872,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de masa- Lección Te�rica 1",
+   "title": "Transformación de Unidades de masa- Lección Teórica 1",
    "link": "b0QX-ejXMdA",
    "server": "",
    "PREMIUM": ""
@@ -890,7 +881,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de masa- Lección Te�rica 2",
+   "title": "Transformación de Unidades de masa- Lección Teórica 2",
    "link": "7Rq5x07oa6g",
    "server": "",
    "PREMIUM": ""
@@ -899,7 +890,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de masa- Lección Pr�ctica 1",
+   "title": "Transformación de Unidades de masa- Lección Práctica 1",
    "link": "YQhswB9-kKQ",
    "server": "",
    "PREMIUM": ""
@@ -908,7 +899,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de masa- Lección Pr�ctica 2",
+   "title": "Transformación de Unidades de masa- Lección Práctica 2",
    "link": "WFLk6qEBao4",
    "server": "",
    "PREMIUM": ""
@@ -917,7 +908,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Transformación de Unidades de masa- Lección Pr�ctica 3",
+   "title": "Transformación de Unidades de masa- Lección Práctica 3",
    "link": "Dd87b8UEdps",
    "server": "",
    "PREMIUM": ""
@@ -926,7 +917,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Relación entre Volumen y Capacidad- Lección Te�rica",
+   "title": "Relación entre Volumen y Capacidad- Lección Teórica",
    "link": "00tbvfVXjoY",
    "server": "",
    "PREMIUM": ""
@@ -935,7 +926,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Relación entre Volumen y Capacidad- Lección Pr�ctica 1",
+   "title": "Relación entre Volumen y Capacidad- Lección Práctica 1",
    "link": "COWYuhVeQL4",
    "server": "",
    "PREMIUM": ""
@@ -944,7 +935,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Relación entre Volumen y Capacidad- Lección Pr�ctica 2",
+   "title": "Relación entre Volumen y Capacidad- Lección Práctica 2",
    "link": "jr-pSDZuqk4",
    "server": "",
    "PREMIUM": ""
@@ -953,7 +944,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Propiedades Caracter�sticas de los materiales- Lección Te�rica",
+   "title": "Propiedades Características de los materiales- Lección Teórica",
    "link": "q9gz5QtU8Oo",
    "server": "",
    "PREMIUM": ""
@@ -962,7 +953,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Punto de fusi�n- Lección Te�rica",
+   "title": "Punto de fusión- Lección Teórica",
    "link": "LL8WuRN9IqI",
    "server": "",
    "PREMIUM": ""
@@ -971,7 +962,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Punto de ebullición- Lección Te�rica",
+   "title": "Punto de ebullición- Lección Teórica",
    "link": "WIyEkQ7_9hE",
    "server": "",
    "PREMIUM": ""
@@ -980,7 +971,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Diagramas de fases- Lección Te�rica",
+   "title": "Diagramas de fases- Lección Teórica",
    "link": "9ViwURCHzis",
    "server": "",
    "PREMIUM": ""
@@ -989,7 +980,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lección Te�rica",
+   "title": "Densidad -Lección Teórica",
    "link": "ja8wZbUY8dQ",
    "server": "",
    "PREMIUM": ""
@@ -998,7 +989,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lección Pr�ctica 1",
+   "title": "Densidad -Lección Práctica 1",
    "link": "J0llOhCudtg",
    "server": "",
    "PREMIUM": ""
@@ -1007,7 +998,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lección Pr�ctica 2",
+   "title": "Densidad -Lección Práctica 2",
    "link": "J-TaQWWp1jI",
    "server": "",
    "PREMIUM": ""
@@ -1016,7 +1007,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lección Pr�ctica 3",
+   "title": "Densidad -Lección Práctica 3",
    "link": "972pqAagty0",
    "server": "",
    "PREMIUM": ""
@@ -1025,7 +1016,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Densidad -Lección Pr�ctica 4",
+   "title": "Densidad -Lección Práctica 4",
    "link": "xUAAI0LNXHs",
    "server": "",
    "PREMIUM": ""
@@ -1034,7 +1025,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lección Te�rica 1",
+   "title": "Solubilidad - Lección Teórica 1",
    "link": "ZTJ-qGf6IUw",
    "server": "",
    "PREMIUM": ""
@@ -1043,7 +1034,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lección Te�rica 2",
+   "title": "Solubilidad - Lección Teórica 2",
    "link": "YJHkk19zHaE",
    "server": "",
    "PREMIUM": ""
@@ -1052,7 +1043,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lección Pr�ctica 1",
+   "title": "Solubilidad - Lección Práctica 1",
    "link": "f6zbB5KT76o",
    "server": "",
    "PREMIUM": ""
@@ -1061,7 +1052,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lección Pr�ctica 2",
+   "title": "Solubilidad - Lección Práctica 2",
    "link": "QPS_gQQf89s",
    "server": "",
    "PREMIUM": ""
@@ -1070,7 +1061,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Solubilidad - Lección Pr�ctica 3",
+   "title": "Solubilidad - Lección Práctica 3",
    "link": "Z6wy5wYeQ9E",
    "server": "",
    "PREMIUM": ""
@@ -1079,7 +1070,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Mezclas (Definición y Caracter�sticas) - Lección Te�rica 1",
+   "title": "Mezclas (Definición y Características) - Lección Teórica 1",
    "link": "_FvJdO04LNs",
    "server": "",
    "PREMIUM": ""
@@ -1088,7 +1079,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Mezclas (Clasificación) - Lección Te�rica 2",
+   "title": "Mezclas (Clasificación) - Lección Teórica 2",
    "link": "qI7sYrFvEyc",
    "server": "",
    "PREMIUM": ""
@@ -1097,7 +1088,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Diferenciar Soluciones y Coloides - Lección Te�rica",
+   "title": "Diferenciar Soluciones y Coloides - Lección Teórica",
    "link": "uOmJl3CWiw4",
    "server": "",
    "PREMIUM": ""
@@ -1106,7 +1097,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separación de mezclas (Introducción) - Lección Te�rica 1",
+   "title": "Técnicas de separación de mezclas (Introducción) - Lección Teórica 1",
    "link": "XVYAUiHbHXE",
    "server": "",
    "PREMIUM": ""
@@ -1115,7 +1106,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Decantación y Centrifugación  (T�cnicas de separación de mezclas) - Lección Te�rica 2",
+   "title": "Decantación y Centrifugación  (Técnicas de separación de mezclas) - Lección Teórica 2",
    "link": "io0wycDw_H8",
    "server": "",
    "PREMIUM": ""
@@ -1124,7 +1115,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separación de mezclas (Filtración) - Lección Te�rica 3",
+   "title": "Técnicas de separación de mezclas (Filtración) - Lección Teórica 3",
    "link": "untAs-qw8Ks",
    "server": "",
    "PREMIUM": ""
@@ -1133,7 +1124,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separación de mezclas de s�lidos  - Lección Te�rica 4",
+   "title": "Técnicas de separación de mezclas de sólidos  - Lección Teórica 4",
    "link": "5B-CaNI8mD0",
    "server": "",
    "PREMIUM": ""
@@ -1142,7 +1133,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separación de mezclas que contienen gases (Gas/L�quido y Gas/Gas) - Lección Te�rica 5",
+   "title": "Técnicas de separación de mezclas que contienen gases (Gas/Líquido y Gas/Gas) - Lección Teórica 5",
    "link": "dECkmnvcgHQ",
    "server": "",
    "PREMIUM": ""
@@ -1151,7 +1142,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separación de mezclas (Destilación y Evaporación) - Lección Te�rica 6",
+   "title": "Técnicas de separación de mezclas (Destilación y Evaporación) - Lección Teórica 6",
    "link": "aNB5x4Z_H5Y",
    "server": "",
    "PREMIUM": ""
@@ -1160,7 +1151,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "T�cnicas de separación de mezclas (Cristalización y �smosis) - Lección Te�rica 7",
+   "title": "Técnicas de separación de mezclas (Cristalización y �smosis) - Lección Teórica 7",
    "link": "sRoCgZGXH_s",
    "server": "",
    "PREMIUM": ""
@@ -1169,7 +1160,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Soluciones Expresines de Concentración - Lección Te�rica ",
+   "title": "Soluciones Expresines de Concentración - Lección Teórica ",
    "link": "z-b709F4czA",
    "server": "",
    "PREMIUM": ""
@@ -1178,7 +1169,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Expresiones Cualitativas de la concentración - Lección Te�rica",
+   "title": "Expresiones Cualitativas de la concentración - Lección Teórica",
    "link": "kelTlqBoCQg",
    "server": "",
    "PREMIUM": ""
@@ -1187,7 +1178,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Mol - Lección Te�rica",
+   "title": "Mol - Lección Teórica",
    "link": "xJxiCu-vwDM",
    "server": "",
    "PREMIUM": ""
@@ -1196,7 +1187,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Masa At�mica - Leccion Te�rica",
+   "title": "Masa Atómica - Leccion Teórica",
    "link": "OtgjIYCpFg0",
    "server": "",
    "PREMIUM": ""
@@ -1205,7 +1196,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Masa Molecular - Lección Te�rica",
+   "title": "Masa Molecular - Lección Teórica",
    "link": "infcl7eD27s",
    "server": "",
    "PREMIUM": ""
@@ -1214,7 +1205,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Masa Molecular - Lección Pr�ctica",
+   "title": "Masa Molecular - Lección Práctica",
    "link": "hgLgm9rZHsE",
    "server": "",
    "PREMIUM": ""
@@ -1223,7 +1214,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Cantidad de Sustancia - Lección Pr�ctica",
+   "title": "Cantidad de Sustancia - Lección Práctica",
    "link": "QC-rGmPKEPw",
    "server": "",
    "PREMIUM": ""
@@ -1232,7 +1223,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Peso equivalente - Lección Te�rica",
+   "title": "Peso equivalente - Lección Teórica",
    "link": "XIZYjz-LrBA",
    "server": "",
    "PREMIUM": ""
@@ -1241,7 +1232,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molaridad - Leción Te�rica",
+   "title": "Molaridad - Leción Teórica",
    "link": "8U3r4XwP6lk",
    "server": "",
    "PREMIUM": ""
@@ -1250,7 +1241,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molaridad - Leción Pr�ctica",
+   "title": "Molaridad - Leción Práctica",
    "link": "FyhNOg43Pi8",
    "server": "",
    "PREMIUM": ""
@@ -1259,7 +1250,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Normalidad - Lección Te�rica",
+   "title": "Normalidad - Lección Teórica",
    "link": "c8ccaGPdIxg",
    "server": "",
    "PREMIUM": ""
@@ -1268,7 +1259,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Normalidad - Lección Pr�ctica",
+   "title": "Normalidad - Lección Práctica",
    "link": "ku8KIMtSpJM",
    "server": "",
    "PREMIUM": ""
@@ -1277,7 +1268,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molalidad - Lección Te�rica",
+   "title": "Molalidad - Lección Teórica",
    "link": "ed94m_H9Z4c",
    "server": "",
    "PREMIUM": ""
@@ -1286,7 +1277,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Molalidad - Lección Pr�ctica",
+   "title": "Molalidad - Lección Práctica",
    "link": "bDPwmI5gNnU",
    "server": "",
    "PREMIUM": ""
@@ -1295,7 +1286,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Fración Molar - Lección Te�rica",
+   "title": "Fración Molar - Lección Teórica",
    "link": "hlBIWwuQfcU",
    "server": "",
    "PREMIUM": ""
@@ -1304,7 +1295,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Fración Molar - Lección Pr�ctica",
+   "title": "Fración Molar - Lección Práctica",
    "link": "cRrDks56duw",
    "server": "",
    "PREMIUM": ""
@@ -1313,7 +1304,7 @@ var videodb = [
    "subject": "quimica",
    "block": "Quimica General",
    "theme": "Sustancias, mezclas y soluciones",
-   "title": "Disolución, Unidades Qu�micas - Lección Te�rica",
+   "title": "Disolución, Unidades Qu�micas - Lección Teórica",
    "link": "BLQYifw0aG0",
    "server": "",
    "PREMIUM": ""
