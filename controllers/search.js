@@ -19,9 +19,10 @@ exports.searching= (req, res) => {
   //   }
   // });
 
-  let hits = resultados.length;
-
-  console.log(resultados);
+  //let hits = resultados.length;
+  let hits = 0;
+  let resultados = [];
+  //console.log(resultados);
 
   res.render('search', {
     title: 'Busqueda',
