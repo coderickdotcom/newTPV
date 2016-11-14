@@ -8,7 +8,7 @@ const User = require('../models/User');
 exports.searching= (req, res) => {
   //llevo el user input a minuscula
   let busqueda = _.toLower(req.query.search);
-  let resultados = _.filter(videodb, function(item) {
+  //let resultados = _.filter(videodb, function(item) {
     //llevo el indice de busqueda a minuscula tambien para que sean compatibles
     let tema = _.toLower(item.theme);
     let bloque = _.toLower(item.block);
