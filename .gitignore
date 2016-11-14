@@ -30,3 +30,11 @@ bower_components
 # OS metadata
 .DS_Store
 Thumbs.db
+
+#DB mockups
+fisica1.json
+matematica1.json
+matematica2.json
+quimica-general.json
+quimica-organica.json
+quimica-inorganica.json
