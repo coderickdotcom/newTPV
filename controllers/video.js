@@ -8,14 +8,14 @@ const subjectdb = require('../subjectdb');
 
 
 //to finding all the blocks
-  Videos.find().exec(function (error, video){
-    if (error) {
-      throw error;
-    }
-    let videosBloque = video;
-    let b =  _.uniqBy(videosBloque, 'block');
-    console.log(b);
-  });
+  // Videos.find().exec(function (error, video){
+  //   if (error) {
+  //     throw error;
+  //   }
+  //   let videosBloque = video;
+  //   let b =  _.uniqBy(videosBloque, 'block');
+  //   console.log(b);
+  // });
 
 
 // ======================= controlador de pagina de videos general ======================= //

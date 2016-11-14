@@ -11,6 +11,12 @@ var subjectdb = [
     'totalTime': '3h',
     'videoNumber':'100'
   },
+  {'title': 'Leyes de Newton',
+    'subject':'fisica',
+    'color':'0cb6ff',
+    'totalTime': '4h',
+    'videoNumber':'20'
+  },
   {'title': 'Números Reales',
     'subject':'matematica',
     'color':'00ff6b',
@@ -35,6 +41,12 @@ var subjectdb = [
     'totalTime': '11h',
     'videoNumber': '61'
   },
+  {'title': 'Gravitación Universal',
+    'subject':'fisica',
+    'color':'0cb6ff',
+    'totalTime': '4h',
+    'videoNumber':'20'
+  },
   {'title': 'Isomería',
     'subject':'quimica',
     'color':'ff3100',
@@ -52,6 +64,12 @@ var subjectdb = [
     'color':'00ff6b',
     'totalTime': '3h',
     'videoNumber':'100'
+  },
+  {'title': 'Electricidad y Magnetismo',
+    'subject':'fisica',
+    'color':'0cb6ff',
+    'totalTime': '4h',
+    'videoNumber':'20'
   },
   {'title': 'Números Racionales',
     'subject':'matematica',
@@ -77,11 +95,23 @@ var subjectdb = [
     'totalTime': '11h',
     'videoNumber': '61'
   },
+  {'title': 'Trabajo y Energía',
+    'subject':'fisica',
+    'color':'0cb6ff',
+    'totalTime': '4h',
+    'videoNumber':'20'
+  },
   {'title': 'Sustancias Puras',
     'subject':'quimica',
     'color':'ff3100',
     'totalTime': '11h',
     'videoNumber': '61'
+  },
+  {'title': 'Impulso y Cantidad de Movimiento',
+    'subject':'fisica',
+    'color':'0cb6ff',
+    'totalTime': '4h',
+    'videoNumber':'20'
   },
   {'title': 'Reacciones Químicas',
     'subject':'quimica',
@@ -94,6 +124,12 @@ var subjectdb = [
     'color':'ff3100',
     'totalTime': '11h',
     'videoNumber': '61'
+  },
+  {'title': 'Termodinámica',
+    'subject':'fisica',
+    'color':'0cb6ff',
+    'totalTime': '4h',
+    'videoNumber':'20'
   }
 ];
 module.exports = subjectdb;
