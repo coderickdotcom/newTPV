@@ -7,9 +7,9 @@ const User = require('../models/User');
 
 exports.searching= (req, res) => {
   //llevo el user input a minuscula
-  let busqueda = _.toLower(req.query.search);
+  // let busqueda = _.toLower(req.query.search);
   // let resultados = _.filter(videodb, function(item) {
-  //   llevo el indice de busqueda a minuscula tambien para que sean compatibles
+  //   //llevo el indice de busqueda a minuscula tambien para que sean compatibles
   //   let tema = _.toLower(item.theme);
   //   let bloque = _.toLower(item.block);
   //   let titulo = _.toLower(item.title);
@@ -18,17 +18,14 @@ exports.searching= (req, res) => {
   //     return item;
   //   }
   // });
-
-  //let hits = resultados.length;
-  let hits = 0;
-  let resultados = [];
-  //console.log(resultados);
+  //
+  // let hits = resultados.length;
 
   res.render('search', {
-    title: 'Busqueda',
-    searchTerm: req.query.search,
-    results: resultados,
-    hits: hits
+    // title: 'Busqueda',
+    // searchTerm: req.query.search,
+    // results: resultados,
+    // hits: hits
     // cantidadDeResultados: TODO: set this up
   });
 };

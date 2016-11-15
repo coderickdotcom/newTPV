@@ -11,6 +11,24 @@ var subjectdb = [
     'totalTime': '3h',
     'videoNumber':'100'
   },
+  {'title': 'INECUACIONES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'RELACIONES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'FUNCIONES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
   {'title': 'Leyes de Newton',
     'subject':'fisica',
     'color':'0cb6ff',
@@ -41,6 +59,18 @@ var subjectdb = [
     'totalTime': '11h',
     'videoNumber': '61'
   },
+  {'title': 'ECUACIONES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'POLINOMIOS',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
   {'title': 'Gravitación Universal',
     'subject':'fisica',
     'color':'0cb6ff',
@@ -52,6 +82,12 @@ var subjectdb = [
     'color':'ff3100',
     'totalTime': '11h',
     'videoNumber': '61'
+  },
+  {'title': 'PRODUCTOS NOTABLES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
   },
   {'title': 'Aritmética',
     'subject':'matematica',
@@ -71,7 +107,19 @@ var subjectdb = [
     'totalTime': '4h',
     'videoNumber':'20'
   },
+  {'title': 'FACTORIZACIÓN',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
   {'title': 'Números Racionales',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'SIMPLIFICACIÓN DE FRACCIONES',
     'subject':'matematica',
     'color':'00ff6b',
     'totalTime': '3h',
@@ -101,11 +149,35 @@ var subjectdb = [
     'totalTime': '4h',
     'videoNumber':'20'
   },
+  {'title': 'BINOMIO DE NEWTON',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'REGLA DE RUFFINI',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
   {'title': 'Sustancias Puras',
     'subject':'quimica',
     'color':'ff3100',
     'totalTime': '11h',
     'videoNumber': '61'
+  },
+  {'title': 'GEOMETRÍA ELEMENTAL',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'LOGARITMO',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
   },
   {'title': 'Impulso y Cantidad de Movimiento',
     'subject':'fisica',
@@ -113,11 +185,23 @@ var subjectdb = [
     'totalTime': '4h',
     'videoNumber':'20'
   },
+  {'title': 'EXPONENCIALES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
   {'title': 'Reacciones Químicas',
     'subject':'quimica',
     'color':'ff3100',
     'totalTime': '11h',
     'videoNumber': '61'
+  },
+  {'title': 'TRIGONOMETRÍA',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
   },
   {'title': 'Compuestos Orgánicos',
     'subject':'quimica',
@@ -125,11 +209,41 @@ var subjectdb = [
     'totalTime': '11h',
     'videoNumber': '61'
   },
+  {'title': 'VECTORES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
   {'title': 'Termodinámica',
     'subject':'fisica',
     'color':'0cb6ff',
     'totalTime': '4h',
     'videoNumber':'20'
-  }
+  },
+  {'title': 'PROGRESIONES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'GEOMETRÍA ANALÍTICA',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'TEORÍA COMBINATORIA',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
+  {'title': 'MATRICES',
+    'subject':'matematica',
+    'color':'00ff6b',
+    'totalTime': '3h',
+    'videoNumber':'100'
+  },
 ];
 module.exports = subjectdb;
