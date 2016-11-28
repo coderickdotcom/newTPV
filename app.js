@@ -187,7 +187,10 @@ app.get('/auth/google/callback', passport.authenticate('google', { failureRedire
 /**
  * Error Handler. TODO: MANEJADOR DE ERRORES MIEENTRAS ESTA LA FASE DE DESARROLLO
  */
-app.use(errorHandler());
+ app.use(function (err, req, res, next) {
+   console.error(err.stack)
+   res.status(500).send('Something broke!')
+ });
 // TODO: PASAR ESTE MANEJADOR DE PRODUCCION ANTES DE HACER DEPLOY FINAL
 // catch 404 and forward to error handler
 // app.use(function(req, res, next) {
@@ -212,13 +215,13 @@ app.use(errorHandler());
 //
 // // production error handler
 // // no stacktraces leaked to user
-// app.use(function(err, req, res, next) {
-//   res.status(err.status || 500);
-//   res.render('error', {
-//     message: err.message,
-//     error: {}
-//   });
-// });
+app.use(function(err, req, res, next) {
+  res.status(err.status || 500);
+  res.render('error', {
+    message: err.message,
+    error: {}
+  });
+});
 
 
 /**
@@ -226,6 +229,12 @@ app.use(errorHandler());
  */
 app.listen(app.get('port'), () => {
   console.log('%s Express server listening on port %d in %s mode.', chalk.green('✓'), app.get('port'), app.get('env'));
+});
+
+
+// 404 ERROR handler
+app.use(function (req, res, next) {
+  res.status(404).render('404');
 });
 
 module.exports = app;

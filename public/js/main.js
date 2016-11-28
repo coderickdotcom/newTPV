@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-  console.log('hey');
-
   var wWidth = $(window).width();
 
   if(wWidth > 991) {

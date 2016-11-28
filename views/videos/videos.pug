@@ -1,0 +1,86 @@
+extends ../layout
+
+block content
+  .section
+    .container
+      h3 Aquí podras ver nuestra biblioteca entera de videos o filtrar por materia.
+  .section(style="margin: 50px 0")
+    .container
+      h2 Matemática
+
+  .section(style="margin: 50px 0")
+    .container
+      .row
+        .grid
+
+          for block in subjectdata
+            if block.subject == "matematica"
+              .col-sm-6.col-md-4
+                .bloque
+                  .bloque_top(style="background-color:#" + block.color)
+                    .bloque_top_materia
+                      a(href="/videos/"+ block.subject) #{block.subject}
+                  .bloque_content
+                    h3.bloque_content_title
+                      a(href="/bloque?name="+ block.title + "&c=" + block.color) #{block.title}
+                    p.bloque_content_desc
+                      | #{block.description}
+                  .bloque_bottom.clearfix
+                    span.bloque_number-of-videos
+                      | #{block.videoNumber}
+                    span.bloque_total-duration
+                      | #{block.totalTime}
+
+  .section(style="margin: 50px 0")
+    .container
+      h2 Física
+
+  .section(style="margin: 50px 0")
+    .container
+      .row
+        .grid
+
+          for block in subjectdata
+            if block.subject == "fisica"
+              .col-sm-6.col-md-4
+                .bloque
+                  .bloque_top(style="background-color:#" + block.color)
+                    .bloque_top_materia
+                      a(href="/videos/"+ block.subject) #{block.subject}
+                  .bloque_content
+                    h3.bloque_content_title
+                      a(href="/bloque?name="+ block.title + "&c=" + block.color) #{block.title}
+                    p.bloque_content_desc
+                      | #{block.description}
+                  .bloque_bottom.clearfix
+                    span.bloque_number-of-videos
+                      | #{block.videoNumber}
+                    span.bloque_total-duration
+                      | #{block.totalTime}
+
+  .section(style="margin: 50px 0")
+    .container
+      h2 Química
+
+  .section(style="margin: 50px 0")
+    .container
+      .row
+        .grid
+
+          for block in subjectdata
+            if block.subject == "quimica"
+              .col-sm-6.col-md-4
+                .bloque
+                  .bloque_top(style="background-color:#" + block.color)
+                    .bloque_top_materia
+                      a(href="/videos/"+ block.subject) #{block.subject}
+                  .bloque_content
+                    h3.bloque_content_title
+                      a(href="/bloque?name="+ block.title + "&c=" + block.color) #{block.title}
+                    p.bloque_content_desc
+                      | #{block.description}
+                  .bloque_bottom.clearfix
+                    span.bloque_number-of-videos
+                      | #{block.videoNumber}
+                    span.bloque_total-duration
+                      | #{block.totalTime}

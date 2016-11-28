@@ -5,8 +5,23 @@ block content
     .container
       if !materia
         h2 Materias
+        p Aqui puedes ver todos los bloques de las materias que tenemos disponibles! Tambien puedes filtrar a solo los bloques de una materia en especifico.
+        li.dropdown(class=(title == 'Account Management') ? 'active' : undefined)
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            p FILTRAR
+          ul.dropdown-menu
+            li
+              a(href='/videos/matematica') Matematica
+            li
+              a(href='/videos/fisica') Fisica
+            li
+              a(href='/videos/quimica') Quimica
       else
         h2 #{materia}
+        p
+          a(href="javascript:history.back()")
+            i.fa.fa-long-arrow-left
+            | Materias
 
   .section(style="margin: 50px 0")
     .container

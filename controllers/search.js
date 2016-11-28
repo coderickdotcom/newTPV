@@ -7,7 +7,7 @@ const User = require('../models/User');
 
 exports.searching= (req, res) => {
   //llevo el user input a minuscula
-  // let busqueda = _.toLower(req.query.search);
+  let busqueda = _.toLower(req.query.search);
   // let resultados = _.filter(videodb, function(item) {
   //   //llevo el indice de busqueda a minuscula tambien para que sean compatibles
   //   let tema = _.toLower(item.theme);
@@ -21,11 +21,20 @@ exports.searching= (req, res) => {
   //
   // let hits = resultados.length;
 
-  res.render('search', {
-    // title: 'Busqueda',
-    // searchTerm: req.query.search,
-    // results: resultados,
-    // hits: hits
-    // cantidadDeResultados: TODO: set this up
+  Videos.find({$text : {$search : busqueda}}).exec(function (error, video){
+    if (error) {
+      throw error;
+    }
+
+    let resultados = video;
+    let hits = resultados.length;
+
+    res.render('search', {
+      title: 'Busqueda',
+      searchTerm: req.query.search,
+      results: resultados,
+      hits: hits
+      // cantidadDeResultados: TODO: set this up
+    });
   });
 };

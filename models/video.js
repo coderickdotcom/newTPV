@@ -14,6 +14,8 @@ const videoSchema = new mongoose.Schema({
   premium: String
 });
 
+videoSchema.index({'$**':'text'});
+
 const Video = mongoose.model('Video', videoSchema, 'videos');
 
 module.exports = Video;
